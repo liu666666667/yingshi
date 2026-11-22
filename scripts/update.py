@@ -384,6 +384,29 @@ def clean_single_config(data, flt):
     return c_pub, c_sep, c_iso, blocked
 
 
+# 可信爬虫引擎 jar：老刘备 fty.jar（圈内知名开源 jar，raw.liucn.cc 国内可直连）。
+# 不带 md5 校验，避免上游更新后校验失败导致爬虫源整体失效。
+DEFAULT_SPIDER = "https://raw.liucn.cc/box/fty.jar"
+# 图片后缀伪装的"jar"（借大厂 OSS/CDN 域名分发的魔改包，常内置 GO 本地代理/
+# 统计推广代码，加载时触发"正在初始化本地代理/下载 GO 组件"提示，内容不透明）一律剔除。
+_IMG_SPIDER_EXTS = (".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp")
+
+
+def sanitize_spider(sp):
+    """清洗线路顶层 spider（爬虫引擎 jar）。
+
+    - 图片伪装后缀 -> 回退可信 jar；空/非字符串/其他非法形态 -> 回退可信 jar；
+    - 只放行 .jar 结尾的正规 jar，保证 type:3 csp_ 爬虫源仍可解析。"""
+    if not isinstance(sp, str) or not sp:
+        return DEFAULT_SPIDER
+    url = sp.split(";", 1)[0].split("?", 1)[0].strip().lower()
+    if url.endswith(_IMG_SPIDER_EXTS):
+        return DEFAULT_SPIDER
+    if url.endswith(".jar") and url.startswith(("http://", "https://")):
+        return sp
+    return DEFAULT_SPIDER
+
+
 def merge_single_configs(items, cap=1500):
     """items: [(fn,name,config)] -> [单仓1, 单仓2, ...] 多卷列表。
 
@@ -398,6 +421,8 @@ def merge_single_configs(items, cap=1500):
         for k, v in base.items():
             if k not in ("sites", "lives", "parses", "doh", "rules", "flags", "exts"):
                 m[k] = v
+        # spider 引擎统一清洗（剔除图片伪装/可疑 jar，回退可信开源 jar）
+        m["spider"] = sanitize_spider(base.get("spider"))
         suffix = "" if idx == 1 else "（第%d卷）" % idx
         m["warningText"] = ("由 yingshi 聚合 %d 条线路自动合并生成%s，仅供学习交流"
                             % (len(items), suffix))
@@ -818,6 +843,11 @@ def main():
     # 分组产物：auto+manual 进公开多仓；own 单独成产物（页面零展示）
     public_items = col.public["auto"] + col.public["manual"]
     own_items = col.public["own"]
+    for bucket_items in (public_items, own_items, col.separate or []):
+        for _fn, _name, single in bucket_items:
+            # 逐条线路也清洗 spider（多仓导入时逐线路加载，同样会触发可疑 jar 下载）
+            if isinstance(single, dict):
+                single["spider"] = sanitize_spider(single.get("spider"))
 
     duocang = {"urls": [], "warningText": "yingshi 多仓聚合，每日自动更新"}
     for fn, name, data in public_items:
