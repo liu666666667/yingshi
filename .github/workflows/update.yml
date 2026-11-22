@@ -4,13 +4,6 @@ on:
   schedule:
     - cron: "10 20 * * *"   # UTC 20:10 = 北京时间次日 04:10，每天自动采集
   workflow_dispatch:         # 支持手动触发
-  push:                      # 源码/配置变更即触发（产物提交不回环触发）
-    branches: [main]
-    paths-ignore:
-      - "output/**"
-      - "config/auto_sources.json"
-      - "config/auto_lives.json"
-      - "**.md"
 
 permissions:
   contents: write
