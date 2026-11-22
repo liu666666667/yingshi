@@ -185,10 +185,27 @@ function esc(t){
 }
 
 async function copyText(t,label){
-  try{ await navigator.clipboard.writeText(t); }catch(e){
-    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();
+  let ok=false;
+  // 1) 现代剪贴板 API（需 https 安全上下文）
+  if(navigator.clipboard && window.isSecureContext){
+    try{ await navigator.clipboard.writeText(t); ok=true; }catch(e){}
   }
-  toast((label||'')+' 已复制');
+  // 2) execCommand 回退（内置浏览器/WebView 常见路径）
+  if(!ok){
+    try{
+      const ta=document.createElement('textarea');
+      ta.value=t; ta.setAttribute('readonly','');
+      ta.style.cssText='position:fixed;top:0;left:0;opacity:0;pointer-events:none;';
+      document.body.appendChild(ta);
+      ta.focus(); ta.select();
+      if(ta.setSelectionRange) ta.setSelectionRange(0,t.length);
+      ok=document.execCommand('copy');
+      ta.remove();
+    }catch(e){ ok=false; }
+  }
+  if(ok){ toast((label||'')+' 已复制'); return; }
+  // 3) 最终兜底：弹窗展示完整地址，长按/全选手动复制（永远可用）
+  prompt((label||'')+' 自动复制失败，请长按全选下方地址手动复制：', t);
 }
 
 let STATUS=null;
