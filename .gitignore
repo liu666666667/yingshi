@@ -1,0 +1,10 @@
+# 私有配置与私有产物（绝不推送 GitHub）
+config/sensitive.json
+output/private/
+raw/
+
+# 本地运行痕迹
+.temp/
+*.log
+__pycache__/
+*.pyc

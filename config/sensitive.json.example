@@ -1,0 +1,28 @@
+{
+  "_说明": [
+    "本文件是【本地私有配置模板】。真正的筛选词不在公开仓库中出现。",
+    "使用方法：复制本文件为 yingshi/config/sensitive.json（该文件已在 .gitignore 中，永远不会被推送到 GitHub），",
+    "填入自己的分流关键词后，本地运行 python scripts/update.py --with-sensitive 即可：",
+    "  1) 公开源中命中 isolate_keywords 的站点会被分离到 output/private/（本地私有目录，同样不入仓库）；",
+    "  2) sensitive.sources 中配置的整条源只进入私有产物 output/private/，公开产物完全不含；",
+    "  3) GitHub Actions 环境没有 sensitive.json，因此线上公开产物天然不含任何私有内容。",
+    "注意：output/private/ 与 raw/ 目录也已在 .gitignore 中。"
+  ],
+  "enabled": true,
+  "isolate_keywords": [
+    "关键词1替换我",
+    "关键词2替换我"
+  ],
+  "isolate_regex": [
+    "正则1替换我"
+  ],
+  "private_sites_note": "命中上述词的站点仍会保留在私有产物中（单独成仓），只是不出现在公开产物。",
+  "sources": [
+    {
+      "id": "example_private",
+      "name": "示例源（替换为你要单独保留的源的地址）",
+      "type": "single",
+      "urls": ["https://example.com/replace-me.json"]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+name: daily-update
+
+on:
+  schedule:
+    - cron: "10 20 * * *"   # UTC 20:10 = 北京时间次日 04:10，每天自动采集
+  workflow_dispatch:         # 支持手动触发
+  push:                      # 源码/配置变更即触发（产物提交不回环触发）
+    branches: [main]
+    paths-ignore:
+      - "output/**"
+      - "config/auto_sources.json"
+      - "config/auto_lives.json"
+      - "**.md"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  actions: write   # 清理旧 workflow 运行需要
+
+concurrency:
+  group: "daily-update"
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Daily web-wide discovery
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DISC_TIME_BUDGET: "1500"
+          PYTHONIOENCODING: utf-8
+        run: python scripts/discover.py
+
+      - name: Run collector
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PYTHONIOENCODING: utf-8
+        run: python scripts/update.py
+
+      - name: Commit outputs
+        continue-on-error: true   # 提交/推送失败不阻塞 Pages 部署（部署用工作目录文件）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add output/ config/ index.html README.md
+          if git diff --cached --quiet; then echo "no changes to commit"; exit 0; fi
+          git commit -m "auto: daily collect $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git fetch origin main
+          git rebase origin/main || (git rebase --abort && echo "rebase failed, push as-is")
+          for i in 1 2 3; do
+            if git push origin HEAD:main; then echo "pushed"; exit 0; fi
+            echo "push failed (attempt $i), refetch and retry..."
+            git fetch origin main
+            git rebase origin/main || git rebase --abort
+            sleep 6
+          done
+          echo "push failed after retries (non-fatal; Pages deploys from workspace files)"
+          exit 0
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+        continue-on-error: true   # Pages 未在仓库设置里启用时不阻塞采集与提交
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+
+      - name: Prune workflow runs older than 7 days
+        if: always()   # 采集失败也要清理
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          PYTHONIOENCODING: utf-8
+        run: |
+          python - <<'PY'
+          import os, json, ssl, urllib.request
+          from datetime import datetime, timedelta, timezone
+
+          TOKEN = os.environ["GH_TOKEN"]
+          REPO = os.environ["GITHUB_REPOSITORY"]
+          ctx = ssl.create_default_context()
+          ctx.check_hostname = False
+          ctx.verify_mode = ssl.CERT_NONE
+
+          def api(method, path):
+              req = urllib.request.Request("https://api.github.com" + path, method=method)
+              req.add_header("Authorization", "Bearer " + TOKEN)
+              req.add_header("Accept", "application/vnd.github+json")
+              req.add_header("User-Agent", "yingshi-pruner")
+              try:
+                  with urllib.request.urlopen(req, timeout=30, context=ctx) as r:
+                      return r.status, r.read()
+              except urllib.error.HTTPError as e:
+                  return e.code, e.read().decode("utf-8", "ignore")[:200]
+
+          cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+          runs, page = [], 1
+          while True:
+              st, body = api("GET", "/repos/%s/actions/runs?per_page=100&page=%d" % (REPO, page))
+              if st != 200:
+                  print("list runs failed:", st)
+                  break
+              batch = json.loads(body).get("workflow_runs", [])
+              if not batch:
+                  break
+              runs.extend(batch)
+              page += 1
+
+          deleted = failed = 0
+          for r in runs:
+              try:
+                  created = datetime.strptime(r["created_at"], "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=timezone.utc)
+              except ValueError:
+                  continue
+              if created >= cutoff:
+                  continue
+              st, _ = api("DELETE", "/repos/%s/actions/runs/%d" % (REPO, r["id"]))
+              if st == 204:
+                  deleted += 1
+              else:
+                  failed += 1
+                  if failed <= 3:
+                      print("delete failed run %s -> %s" % (r["id"], st))
+          print("total=%d pruned=%d failed=%d (retain 7 days)" % (len(runs), deleted, failed))
+          PY

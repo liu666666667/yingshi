@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>yingshi · 影视线路聚合</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%234f8ff7'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='sans-serif'%3E影%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#0d1117; --card:#161b22; --border:#30363d; --text:#e6edf3; --muted:#8b949e;
+  --accent:#4f8ff7; --ok:#3fb950; --fail:#f85149; --tag:#1f6feb33;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:"PingFang SC","Microsoft YaHei",system-ui,sans-serif;line-height:1.6;padding-bottom:60px}
+.wrap{max-width:980px;margin:0 auto;padding:0 18px}
+header{text-align:center;padding:42px 0 8px}
+header h1{font-size:30px;letter-spacing:2px}
+header h1 span{color:var(--accent)}
+header p{color:var(--muted);margin-top:8px;font-size:14px}
+.meta{display:flex;justify-content:center;gap:14px;flex-wrap:wrap;margin:16px 0 6px;font-size:13px;color:var(--muted)}
+.meta b{color:var(--text)}
+.badge{display:inline-block;background:var(--tag);color:#79b8ff;border-radius:10px;padding:1px 10px;font-size:12px}
+.modebar{display:flex;justify-content:center;gap:10px;margin:18px 0 26px}
+.modebar button{background:var(--card);border:1px solid var(--border);color:var(--text);padding:6px 20px;border-radius:18px;cursor:pointer;font-size:13px}
+.modebar button.active{background:var(--accent);border-color:var(--accent);color:#fff}
+.modebar .tip{font-size:12px;color:var(--muted);align-self:center}
+section{margin-bottom:30px}
+h2{font-size:18px;border-left:4px solid var(--accent);padding-left:10px;margin-bottom:14px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px}
+.feature{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;align-items:start}
+.fitem{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.fname{font-size:16px;font-weight:600}
+.fdesc{font-size:13px;color:var(--muted);flex:1}
+.btnrow{display:flex;gap:8px;flex-wrap:wrap}
+.btn{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:7px 14px;cursor:pointer;font-size:13px;text-decoration:none;display:inline-block}
+.btn.ghost{background:transparent;border:1px solid var(--border);color:var(--text)}
+.btn:hover{opacity:.85}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:9px 10px;border-bottom:1px solid var(--border);text-align:left;vertical-align:middle}
+th{color:var(--muted);font-weight:500}
+td .st{color:var(--ok)} td .stf{color:var(--fail)}
+.copy{cursor:pointer;color:var(--accent);background:none;border:none;font-size:12px}
+.stats{display:flex;gap:20px;flex-wrap:nowrap;overflow-x:auto;font-size:13px;color:var(--muted);padding-bottom:2px}
+.stats div{white-space:nowrap;flex:0 0 auto}
+.stats b{display:block;font-size:22px;color:var(--text)}
+.volrow{display:flex;gap:8px;margin-top:10px;align-items:center;flex-wrap:wrap}
+.volrow select{background:var(--card);border:1px solid var(--border);color:var(--text);border-radius:6px;padding:6px 8px;font-size:12px;max-width:140px}
+.livedetail{margin-top:12px;font-size:13px;color:var(--muted)}
+footer{text-align:center;color:var(--muted);font-size:12px;margin-top:40px}
+.toast{position:fixed;bottom:26px;left:50%;transform:translateX(-50%);background:#2ea04399;color:#fff;padding:8px 22px;border-radius:20px;font-size:13px;opacity:0;transition:opacity .3s;pointer-events:none}
+.toast.show{opacity:1}
+@media(max-width:640px){header h1{font-size:24px}.fname{font-size:14px}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <h1>ying<span>shi</span> · 影视线路聚合</h1>
+  <p>每日自动全网搜索发现新源 · 采集可用线路 · 广告/博彩内容已按规则过滤 · 仅供学习交流</p>
+  <div class="meta">
+    <span class="badge" id="badge">加载中…</span>
+    <span>更新时间：<b id="utime">-</b></span>
+    <span>成功源：<b id="okcnt">-</b></span>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="modebar">
+    <button id="mDirect" class="active" onclick="setMode('direct')">直连模式</button>
+    <button id="mProxy" onclick="setMode('proxy')">加速模式</button>
+    <span class="tip">（国内访问不畅时点“加速模式”，所有链接自动切换为镜像加速地址）</span>
+  </div>
+
+  <section>
+    <h2>三类聚合产物（推荐入口）</h2>
+    <div class="feature">
+      <div class="fitem">
+        <div class="fname">① 多仓订阅</div>
+        <div class="fdesc">收录当前全部可用线路的多仓。影视仓 → 设置 → 配置地址，粘贴链接即可。想单选某条线路见下方“分线路列表”。</div>
+        <div class="btnrow">
+          <a class="btn" id="bDuo" href="javascript:void(0)">复制链接</a>
+          <a class="btn ghost" id="bDuo2" href="output/duocang.json" target="_blank">直连查看</a>
+        </div>
+      </div>
+      <div class="fitem">
+        <div class="fname">② 合并单仓</div>
+        <div class="fdesc">把能合并的站点合成为一个单仓，已去重。默认按 1500 站点分卷（加载快）；另有全量版 merged_all.json（全部站点一个文件，首次加载稍慢）。</div>
+        <div class="btnrow">
+          <a class="btn" id="bMerge" href="javascript:void(0)">复制链接·卷1</a>
+          <a class="btn" id="bMergeAll" href="javascript:void(0)">复制全量版</a>
+          <a class="btn ghost" href="output/merged.json" target="_blank">直连查看</a>
+        </div>
+        <div class="volrow" id="volRow" style="display:none">
+          <select id="volSel"></select>
+          <button class="btn ghost" id="bVol">复制所选卷</button>
+        </div>
+      </div>
+      <div class="fitem">
+        <div class="fname">③ 直播源（m3u）</div>
+        <div class="fdesc">全网直播源每日抓取、去重、按频道分组。支持 m3u 订阅格式，同时提供 txt 格式。</div>
+        <div class="btnrow">
+          <a class="btn" id="bLive" href="javascript:void(0)">复制链接</a>
+          <a class="btn ghost" href="output/live.m3u" target="_blank">直连查看</a>
+          <a class="btn ghost" id="bLiveTxt" href="javascript:void(0)">复制 txt</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>直播源统计</h2>
+    <div class="card">
+      <div class="stats" id="liveStats"></div>
+      <div class="livedetail" id="liveDetail"></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>分线路列表（多仓成员/单选线路）</h2>
+    <div class="card" style="overflow-x:auto">
+      <table id="linesTable">
+        <thead><tr><th>#</th><th>线路名</th><th>复制地址</th><th>加速地址</th></tr></thead>
+        <tbody><tr><td colspan="4">加载中…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>源采集状态</h2>
+    <div class="card" style="overflow-x:auto">
+      <table id="srcTable">
+        <thead><tr><th>源</th><th>状态</th><th>说明</th><th>原始地址（仅展示源站点，导入请用上方产物）</th></tr></thead>
+        <tbody><tr><td colspan="4">加载中…</td></tr></tbody>
+      </tbody></table>
+    </div>
+  </section>
+
+  <footer class="wrap">
+    <p>本项目仅做公开接口的状态聚合与格式整理，所有线路内容归原作者所有；请于 24 小时内自行删除并勿用于商业用途。<br>
+    屏蔽规则位于 config/rules.json，可自行增删；本页面与 README 不展示任何被过滤分类的内容。</p>
+  </footer>
+</div>
+<div class="toast" id="toast">已复制</div>
+
+<script>
+let MODE = localStorage.getItem('ysmode') || 'direct';
+let REPO = null;
+
+function toast(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),1500);}
+
+function setMode(m){
+  MODE=m;localStorage.setItem('ysmode',m);
+  document.getElementById('mDirect').classList.toggle('active',m==='direct');
+  document.getElementById('mProxy').classList.toggle('active',m==='proxy');
+  renderLinks();
+}
+
+function linkOf(path){
+  // path: output/xxx
+  // 本地/隧道等无 REPO 场景必须返回当前站点的绝对地址，
+  // 否则复制到剪贴板的只有相对路径后半截
+  const abs = location.origin + '/' + path.replace(/^\/+/, '');
+  if(!REPO){ return abs; }
+  const raw='https://raw.githubusercontent.com/'+REPO+'/main/'+path;
+  const page='https://'+REPO.split('/')[0]+'.github.io/'+REPO.split('/')[1]+'/'+path;
+  if(MODE==='proxy') return 'https://gh-proxy.com/'+raw;
+  return page;
+}
+
+function absUrl(u){
+  // 把相对地址补全成当前站点的绝对地址（多仓分线路等场景）
+  u = u || '';
+  if(u.startsWith('http')) return u;
+  return location.origin + '/' + u.replace(/^\/+/, '');
+}
+
+function volFile(i){ return i<=1?'output/merged.json':'output/merged'+i+'.json'; }
+
+function maskUser(t){
+  // 页面展示脱敏：不显示仓库所有者账号
+  return String(t==null?'':t).replace(/liu666666667/gi,'***');
+}
+
+function esc(t){
+  return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+async function copyText(t,label){
+  try{ await navigator.clipboard.writeText(t); }catch(e){
+    const ta=document.createElement('textarea');ta.value=t;document.body.appendChild(ta);ta.select();document.execCommand('copy');ta.remove();
+  }
+  toast((label||'')+' 已复制');
+}
+
+let STATUS=null;
+async function load(){
+  try{
+    const r=await fetch('output/status.json',{cache:'no-store'});
+    STATUS=await r.json();
+    REPO=STATUS.repo&&STATUS.repo.includes('/')?STATUS.repo:null;
+    document.getElementById('utime').textContent=STATUS.updated_at||'-';
+    const ok=STATUS.sources.filter(s=>s.ok).length;
+    document.getElementById('okcnt').textContent=ok+' / '+STATUS.sources.length;
+    const st=STATUS.stats||{};
+    document.getElementById('badge').textContent=
+      (st.public_lines||0)+' 线路 · 屏蔽 '+ (st.blocked_sites||0) +' 违规站点';
+    renderLinks();
+    renderLines();
+    renderSrc();
+    renderLive();
+  }catch(e){
+    document.getElementById('badge').textContent='status.json 读取失败（可能在本地直接打开，请通过 http 服务访问）';
+  }
+}
+
+function renderLinks(){
+  document.getElementById('bDuo').onclick=()=>copyText(linkOf('output/duocang.json'),'多仓');
+  document.getElementById('bMerge').onclick=()=>copyText(linkOf('output/merged.json'),'合并单仓·卷1');
+  document.getElementById('bMergeAll').onclick=()=>copyText(linkOf('output/merged_all.json'),'合并单仓·全量版');
+  // 合并单仓多卷：卷选择器（代替一长串按钮，避免卡片被拉长）
+  const mf=(STATUS&&STATUS.stats&&STATUS.stats.merged_files)||1;
+  const volRow=document.getElementById('volRow'), volSel=document.getElementById('volSel');
+  if(volRow&&volSel){
+    if(mf>1){
+      volRow.style.display='flex';
+      volSel.innerHTML='';
+      for(let i=1;i<=mf;i++){
+        const o=document.createElement('option');
+        o.value=i;
+        o.textContent=(i===1?'卷1（首页）':'卷'+i);
+        volSel.appendChild(o);
+      }
+      document.getElementById('bVol').onclick=()=>
+        copyText(linkOf(volFile(parseInt(volSel.value,10)||1)),'合并单仓·卷'+volSel.value);
+    }else{
+      volRow.style.display='none';
+    }
+  }
+  document.getElementById('bLive').onclick=()=>copyText(linkOf('output/live.m3u'),'直播 m3u');
+  document.getElementById('bLiveTxt').onclick=()=>copyText(linkOf('output/live.txt'),'直播 txt');
+}
+
+function renderLines(){
+  const tb=document.querySelector('#linesTable tbody');
+  tb.innerHTML='';
+  if(!STATUS){tb.innerHTML='<tr><td colspan="4">无数据</td></tr>';return;}
+  // 从 duocang.json 拉线路名单
+  fetch('output/duocang.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{
+    let i=0;
+    (d.urls||[]).forEach(u=>{
+      i++;
+      const disp=esc(maskUser(u.name));
+      const tr=document.createElement('tr');
+      tr.innerHTML='<td>'+i+'</td><td>'+disp+'</td>'+
+        '<td><button class="copy">复制</button></td>'+
+        '<td><button class="copy">复制加速</button></td>';
+      const btns=tr.querySelectorAll('button');
+      const direct=absUrl(u.url);
+      const acc=direct.includes('raw.githubusercontent.com')
+        ?('https://gh-proxy.com/'+direct):direct;
+      btns[0].onclick=()=>copyText(MODE==='proxy'?acc:direct,u.name);
+      btns[1].onclick=()=>copyText(acc,u.name);
+      tb.appendChild(tr);
+    });
+  }).catch(()=>{tb.innerHTML='<tr><td colspan="4">duocang.json 读取失败</td></tr>';});
+}
+
+function renderSrc(){
+  const tb=document.querySelector('#srcTable tbody');
+  tb.innerHTML='';
+  if(!STATUS||!STATUS.sources){return;}
+  STATUS.sources.forEach(s=>{
+    const tr=document.createElement('tr');
+    const st=s.ok?'<span class="st">✔ 可用</span>':'<span class="stf">✘ 失效</span>';
+    const note=s.ok?('展开'+(s.lines||1)+'条线路'):('失败：'+(s.err||'').replace(/[<>&]/g,'').slice(0,42));
+    tr.innerHTML='<td>'+esc(maskUser(s.name))+'</td><td>'+st+'</td><td>'+note+'</td><td><code style="font-size:11px;color:var(--muted)">'+(s.ok?'（see output/lines/）':s.err?'':'')+'</code></td>';
+    tb.appendChild(tr);
+  });
+}
+
+function renderLive(){
+  const ls=STATUS&&STATUS.live_stats;
+  const el=document.getElementById('liveStats');
+  if(!ls){el.innerHTML='<span>本次未更新直播源</span>';return;}
+  el.innerHTML=
+    '<div><b>'+ls.input_channels+'</b>原始频道</div>'+
+    '<div><b>'+ls.kept+'</b>去重保留</div>'+
+    '<div><b>'+ls.groups+'</b>分组</div>'+
+    '<div><b>'+(STATUS.live_sources||[]).filter(s=>s.ok).length+' / '+(STATUS.live_sources||[]).length+'</b>直播源可用</div>';
+  const det=document.getElementById('liveDetail');
+  det.innerHTML=(STATUS.live_sources||[]).map(s=>
+    (s.ok?'<span style="color:var(--ok)">●</span>':'<span style="color:var(--fail)">○</span>')+' '+esc(maskUser(s.name))+'（'+s.channels+'）'
+  ).join(' &nbsp; ');
+}
+
+setMode(MODE);
+load();
+</script>
+</body>
+</html>

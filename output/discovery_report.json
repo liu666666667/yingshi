@@ -1,0 +1,52 @@
+{
+ "date": "2026-11-22 19:39:57",
+ "channels": {
+  "github": {
+   "queries": 8,
+   "repos": 18,
+   "candidates": 57
+  },
+  "ghcode": {
+   "queries": 0,
+   "files": 0,
+   "candidates": 0,
+   "errors": [
+    "spider parses extension: : HTTP Error 429: Too Many Requests",
+    "\"sites\" \"spiders\" extens : HTTP Error 429: Too Many Requests",
+    "\"sites\" \"parses\" extensi : HTTP Error 429: Too Many Requests",
+    "影视仓 extension:json : HTTP Error 429: Too Many Requests",
+    "tvbox 订阅 extension:json : HTTP Error 429: Too Many Requests",
+    "tvbox 接口 extension:json : HTTP Error 429: Too Many Requests",
+    "饭太硬 extension:json : HTTP Error 429: Too Many Requests",
+    "csp_ 影视 extension:json : HTTP Error 429: Too Many Requests"
+   ]
+  },
+  "web": {
+   "queries": 9,
+   "pages": 52,
+   "candidates": 19
+  },
+  "gitee": {
+   "queries": 0,
+   "repos": 0,
+   "candidates": 0
+  },
+  "seeds": {
+   "repos": 0,
+   "lists": 2,
+   "candidates": 35
+  },
+  "manifests": {
+   "lists": 0,
+   "candidates": 0
+  },
+  "candidates_total": 111,
+  "probed": 86,
+  "added_configs": 0,
+  "added_lives": 0,
+  "pruned": 0,
+  "auto_configs": 29,
+  "auto_lives": 0,
+  "elapsed_sec": 418.1
+ }
+}

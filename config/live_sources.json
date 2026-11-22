@@ -1,0 +1,56 @@
+{
+  "description": "直播源（IPTV/m3u）拉取清单。每日定时抓取、校验、去重后生成 live.m3u / live.txt。",
+  "sources": [
+    {
+      "id": "guovin",
+      "name": "Guovin",
+      "format": "m3u",
+      "urls": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://mirror.ghproxy.com/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ]
+    },
+    {
+      "id": "fanmingming",
+      "name": "范明明IPv6",
+      "format": "m3u",
+      "urls": ["https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"]
+    },
+    {
+      "id": "ssili126",
+      "name": "ssili126",
+      "format": "m3u",
+      "urls": ["https://raw.githubusercontent.com/ssili126/tv/main/itvlist.m3u"]
+    },
+    {
+      "id": "iptvorg_cn",
+      "name": "iptv-org中国",
+      "format": "m3u",
+      "urls": ["https://iptv-org.github.io/iptv/countries/cn.m3u"]
+    },
+    {
+      "id": "kimentanm",
+      "name": "Kimentanm",
+      "format": "m3u",
+      "urls": ["https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u"]
+    },
+    {
+      "id": "vbskycn",
+      "name": "vbskycn",
+      "format": "m3u",
+      "urls": ["https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.m3u"]
+    },
+    {
+      "id": "yang1989",
+      "name": "yanG1989",
+      "format": "m3u",
+      "urls": ["https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u"]
+    },
+    {
+      "id": "burningc4",
+      "name": "Chinese-IPTV",
+      "format": "m3u",
+      "urls": ["https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u"]
+    }
+  ]
+}

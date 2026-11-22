@@ -1,0 +1,374 @@
+{
+ "sources": [
+  {
+   "id": "auto_rawgithubuserc_eef040",
+   "name": "raw.githubusercontent.com/config_all.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_all.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 725
+  },
+  {
+   "id": "auto_rawgithubuserc_97e40e",
+   "name": "raw.githubusercontent.com/xinyicang/xinyi-box/main/xinyi.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/xinyicang/xinyi-box/main/xinyi.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-22 10:09:10",
+   "last_ok": "2026-11-22 10:09:10",
+   "fail_streak": 5,
+   "score": 424
+  },
+  {
+   "id": "auto_cdnjsdelivrnet_18ecca",
+   "name": "cdn.jsdelivr.net/niuniu.json",
+   "type": "single",
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/zknjjjx/tvbox@main/niuniu.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 334
+  },
+  {
+   "id": "auto_ghproxycom",
+   "name": "gh-proxy.com",
+   "type": "single",
+   "urls": [
+    "https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+   ],
+   "first_seen": "2026-11-22 08:55:46",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 298
+  },
+  {
+   "id": "auto_rawgithubuserc_890b43",
+   "name": "raw.githubusercontent.com/peter_tvbox_pro.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/YiMing918/ym-tvbox/main/peter_tvbox_pro.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 180
+  },
+  {
+   "id": "auto_cdnjsdelivrnet_488fbc",
+   "name": "cdn.jsdelivr.net/official.json",
+   "type": "single",
+   "urls": [
+    "https://cdn.jsdelivr.net/gh/TVboxorg/TVbox@main/dist/official.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 160
+  },
+  {
+   "id": "auto_9280kstorespace",
+   "name": "9280.kstore.space",
+   "type": "single",
+   "urls": [
+    "https://9280.kstore.space/aiwex.json"
+   ],
+   "first_seen": "2026-11-22 08:36:06",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 100
+  },
+  {
+   "id": "auto_9280kstorevip",
+   "name": "9280.kstore.vip",
+   "type": "single",
+   "urls": [
+    "https://9280.kstore.vip/newwex.json"
+   ],
+   "first_seen": "2026-11-22 08:36:06",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 100
+  },
+  {
+   "id": "auto_tvboxtop_eff74c",
+   "name": "tvbox.王二小放牛娃.top",
+   "type": "single",
+   "urls": [
+    "http://tvbox.王二小放牛娃.top"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 100
+  },
+  {
+   "id": "auto_rawgithubuserc_b01fe4",
+   "name": "raw.githubusercontent.com/tvbox.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/RyuKyou/personal-iptv-config/main/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 96
+  },
+  {
+   "id": "auto_rawgithubuserc_2eaf23",
+   "name": "raw.githubusercontent.com/tvbox.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/Jamin-f/tvbox-config/main/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 58
+  },
+  {
+   "id": "auto_rawgithubuserc_052d5a",
+   "name": "raw.githubusercontent.com/XYQ.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 49
+  },
+  {
+   "id": "auto_zthatop",
+   "name": "ztha.top",
+   "type": "single",
+   "urls": [
+    "https://ztha.top/TVBox/thdjk.json"
+   ],
+   "first_seen": "2026-11-22 08:36:06",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 46
+  },
+  {
+   "id": "auto_ghproxyorg",
+   "name": "gh-proxy.org",
+   "type": "single",
+   "urls": [
+    "https://gh-proxy.org/raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json"
+   ],
+   "first_seen": "2026-11-22 08:36:06",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 43
+  },
+  {
+   "id": "auto_11405kstorespace",
+   "name": "11405.kstore.space",
+   "type": "single",
+   "urls": [
+    "https://11405.kstore.space/xiaye/qk4k.json"
+   ],
+   "first_seen": "2026-11-22 08:36:06",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 43
+  },
+  {
+   "id": "auto_rawgithubuserc_678c54",
+   "name": "raw.githubusercontent.com/demo.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/main/json/demo.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 43
+  },
+  {
+   "id": "auto_rawgithubuserc_c6db2b",
+   "name": "raw.githubusercontent.com/0827.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 09:42:29",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 33
+  },
+  {
+   "id": "auto_jihulabcom",
+   "name": "jihulab.com",
+   "type": "single",
+   "urls": [
+    "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json"
+   ],
+   "first_seen": "2026-11-22 08:36:06",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 28
+  },
+  {
+   "id": "auto_wwwyingmcc",
+   "name": "www.yingm.cc",
+   "type": "single",
+   "urls": [
+    "https://www.yingm.cc/dm/dm.json"
+   ],
+   "first_seen": "2026-11-22 08:36:06",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 27
+  },
+  {
+   "id": "auto_homejundietop81",
+   "name": "home.jundie.top:81",
+   "type": "single",
+   "urls": [
+    "http://home.jundie.top:81/top98.json"
+   ],
+   "first_seen": "2026-11-22 08:37:34",
+   "last_ok": "2026-11-22 10:08:00",
+   "fail_streak": 5,
+   "score": 24
+  },
+  {
+   "id": "auto_rawgithubuserc_be8236",
+   "name": "raw.githubusercontent.com/CatVodSpider-GM/NSFW-Spiders/main/inde",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/CatVodSpider-GM/NSFW-Spiders/main/index.json"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_rawgithubuserc_880b24",
+   "name": "raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_rawgithubuserc_4d6fc8",
+   "name": "raw.githubusercontent.com/c120487/00/main/00live05151.txt",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/c120487/00/main/00live05151.txt#Peter2$https://ghproxy.com/https://raw.githubusercontent.com/c120487/00/main/00live05152.txt#Peter3$https://ghproxy.com/https://raw.githubusercontent.com/c120487/00/main/00live05153.txt#FongMi$https://ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/txt/adult.txt#Gaotian$https://ghproxy.com/https://raw.githubusercontent.com/gaotianliuyun/gao/master/listx.txt"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_fastlyjsdelivr_6ecaf9",
+   "name": "fastly.jsdelivr.net/gh/707214981/tvbox-aggregator@main/multisite",
+   "type": "single",
+   "urls": [
+    "https://fastly.jsdelivr.net/gh/707214981/tvbox-aggregator@main/multisite_adult_proxy_latest.json"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_fastlyjsdelivr_34057c",
+   "name": "fastly.jsdelivr.net/gh/qiuhlee/tvbox_interface@main/dc_xxx.json",
+   "type": "single",
+   "urls": [
+    "https://fastly.jsdelivr.net/gh/qiuhlee/tvbox_interface@main/dc_xxx.json"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_fastlyjsdelivr_91a1b3",
+   "name": "fastly.jsdelivr.net/gh/707214981/tvbox-aggregator@main/multisite",
+   "type": "single",
+   "urls": [
+    "https://fastly.jsdelivr.net/gh/707214981/tvbox-aggregator@main/multisite_adult_github_latest.json"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_nicezonecoderg_3512c2",
+   "name": "NiceZoneCoder.github.io/ck_xxx.json",
+   "type": "single",
+   "urls": [
+    "https://NiceZoneCoder.github.io/ck_xxx.json"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_cyuannetlifyap_bf92f4",
+   "name": "cyuan.netlify.app/tvbox/lives/18+/18+2023.txt",
+   "type": "single",
+   "urls": [
+    "https://cyuan.netlify.app/tvbox/lives/18+/18+2023.txt"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  },
+  {
+   "id": "auto_fastlyjsdelivr_fb2f55",
+   "name": "fastly.jsdelivr.net/gh/wangshui898/YSZY@main/tvbox-multiple-porn",
+   "type": "single",
+   "urls": [
+    "https://fastly.jsdelivr.net/gh/wangshui898/YSZY@main/tvbox-multiple-porn.json"
+   ],
+   "channel": "focus",
+   "first_seen": "2026-11-22 12:49:31",
+   "last_ok": "2026-11-22 12:49:31",
+   "fail_streak": 5,
+   "score": 0
+  }
+ ],
+ "updated_at": "2026-11-22 19:39:57",
+ "note": "自动全网搜索发现并维护（scripts/discover.py）：新源自动纳入、失效源自动淘汰，无需人工维护。"
+}

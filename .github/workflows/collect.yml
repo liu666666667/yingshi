@@ -1,0 +1,13 @@
+name: legacy-collect-disabled
+
+# 旧的采集管线已停用：与 daily-update（update.yml）冲突。
+# 如需恢复旧管线，把本文件换回原内容即可。
+on:
+  workflow_dispatch: null
+
+jobs:
+  disabled:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Disabled
+        run: echo "此工作流已停用，采集由 update.yml (daily-update) 负责"
