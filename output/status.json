@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22 19:42:04",
+ "updated_at": "2026-11-22 20:42:48",
  "repo": "liu666666667/yingshi",
  "sources": [
   {
@@ -349,7 +349,7 @@
    "id": "vbskycn",
    "name": "vbskycn",
    "ok": true,
-   "channels": 313,
+   "channels": 311,
    "err": null
   },
   {
@@ -754,9 +754,9 @@
   }
  ],
  "live_stats": {
-  "input_channels": 2474,
-  "kept": 1687,
-  "groups": 80
+  "input_channels": 2472,
+  "kept": 1693,
+  "groups": 81
  },
  "stats": {
   "public_lines": 52,
@@ -766,6 +766,6 @@
   "blocked_sites": 15,
   "discovered_configs": 29,
   "discovered_lives": 0,
-  "elapsed_sec": 127.0
+  "elapsed_sec": 89.7
  }
 }
