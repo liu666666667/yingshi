@@ -1,17 +1,17 @@
 {
- "date": "2026-11-23 08:08:00",
+ "date": "2026-11-23 08:55:48",
  "channels": {
   "github": {
    "queries": 8,
    "repos": 18,
-   "candidates": 86
+   "candidates": 114
   },
   "ghcode": {
    "queries": 0,
    "files": 0,
    "candidates": 0,
    "errors": [
-    "spider parses extension: : name 'OWN_REPO_PREFIXES' is not defined",
+    "spider parses extension: : HTTP Error 429: Too Many Requests",
     "\"sites\" \"spiders\" extens : HTTP Error 429: Too Many Requests",
     "\"sites\" \"parses\" extensi : HTTP Error 429: Too Many Requests",
     "影视仓 extension:json : HTTP Error 429: Too Many Requests",
@@ -23,8 +23,8 @@
   },
   "web": {
    "queries": 9,
-   "pages": 50,
-   "candidates": 4
+   "pages": 56,
+   "candidates": 3
   },
   "gitee": {
    "queries": 0,
@@ -40,13 +40,13 @@
    "lists": 0,
    "candidates": 0
   },
-  "candidates_total": 116,
-  "probed": 101,
+  "candidates_total": 138,
+  "probed": 119,
   "added_configs": 0,
   "added_lives": 0,
   "pruned": 0,
   "auto_configs": 0,
   "auto_lives": 0,
-  "elapsed_sec": 391.6
+  "elapsed_sec": 414.2
  }
 }

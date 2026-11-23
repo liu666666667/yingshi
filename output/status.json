@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23 08:09:13",
+ "updated_at": "2026-11-23 08:56:53",
  "repo": "liu666666667/yingshi",
  "sources": [
   {
@@ -520,6 +520,6 @@
   "blocked_sites": 0,
   "discovered_configs": 0,
   "discovered_lives": 0,
-  "elapsed_sec": 72.9
+  "elapsed_sec": 64.8
  }
 }
