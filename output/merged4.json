@@ -18,6 +18,22 @@
  "warningText": "由 yingshi 聚合 78 条线路自动合并生成（第4卷），仅供学习交流",
  "sites": [
   {
+   "key": "l001_wangerx_少儿教育_20",
+   "name": "📚少儿┃教育📚",
+   "type": 3,
+   "api": "csp_BiliGuard",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+   }
+  },
+  {
    "key": "l001_wangerx_js_007_2",
    "name": "🕵‍┃特工┃影视",
    "type": 3,
@@ -75,13 +91,20 @@
    "changeable": 1
   },
   {
-   "key": "l001_wangerx_biliys_1",
-   "name": "🅱哔哩┃影视🅱",
+   "key": "l001_wangerx_少儿教育_21",
+   "name": "📚少儿┃教育📚",
    "type": 3,
-   "api": "csp_BiliYsGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
+   "api": "csp_BiliGuard",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+   }
   },
   {
    "key": "l001_wangerx_八戒影院_1",
@@ -94,13 +117,20 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/八戒影院.json"
   },
   {
-   "key": "l001_wangerx_biliys_2",
-   "name": "🅱哔哩┃影视🅱",
+   "key": "l001_wangerx_少儿教育_22",
+   "name": "📚少儿┃教育📚",
    "type": 3,
-   "api": "csp_BiliYsGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1
+   "api": "csp_BiliGuard",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
+   }
   },
   {
    "key": "UC网盘",
@@ -116,13 +146,13 @@
    }
   },
   {
-   "key": "Buguyy",
-   "name": "🐦┆布谷┆音乐",
+   "key": "BeiLeHu",
+   "name": "🐯┆小虎┆少儿",
    "type": 3,
-   "api": "csp_Buguyy",
-   "searchable": 1,
-   "filterable": 1,
-   "changeable": 1
+   "api": "csp_BeiLeHu",
+   "searchable": 0,
+   "quickSearch": 0,
+   "filterable": 0
   },
   {
    "key": "l001_wangerx_WebDAV_3",
@@ -241,20 +271,19 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianluheji/19/lib/webdav.json"
   },
   {
-   "key": "bilibili",
-   "name": " 🅱‍哔哩┃合集🅱‍",
+   "key": "l001_wangerx_小学课堂_18",
+   "name": "📚小学┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
    }
   },
   {
@@ -324,20 +353,19 @@
    "changeable": 1
   },
   {
-   "key": "l001_wangerx_bilibili_1",
-   "name": " 🅱‍哔哩┃合集🅱‍",
+   "key": "l001_wangerx_小学课堂_19",
+   "name": "📚小学┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
    }
   },
   {
@@ -351,20 +379,19 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/朴樱影视.json"
   },
   {
-   "key": "l001_wangerx_bilibili_2",
-   "name": " 🅱‍哔哩┃合集🅱‍",
+   "key": "l001_wangerx_小学课堂_20",
+   "name": "📚小学┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkE9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--47a8ff0e68559a89a9a75b37d09a2b0854dc5a8a/bili001.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
    }
   },
   {
@@ -381,13 +408,20 @@
    }
   },
   {
-   "key": "ChuXin",
-   "name": "💕┆初心┆音乐",
+   "key": "l001_wangerx_少儿教育_23",
+   "name": "🧒┆少儿┆教育",
    "type": 3,
-   "api": "csp_ChuXin",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
+   }
   },
   {
    "key": "l001_wangerx_商店_2",
@@ -477,20 +511,19 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianluheji/19/lib/market.json"
   },
   {
-   "key": "bilixiqu",
-   "name": " 🅱‍哔哩┃戏曲🅱‍",
+   "key": "l001_wangerx_初中课堂_18",
+   "name": "📚初中┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/183E562_773_xiqu_20251130182006749newMediaImage.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
    }
   },
   {
@@ -549,20 +582,19 @@
    "changeable": 1
   },
   {
-   "key": "l001_wangerx_bilixiqu_1",
-   "name": " 🅱‍哔哩┃戏曲🅱‍",
+   "key": "l001_wangerx_初中课堂_19",
+   "name": "📚初中┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/183E562_773_xiqu_20251130182006749newMediaImage.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
    }
   },
   {
@@ -576,20 +608,19 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/思古影视1.json"
   },
   {
-   "key": "l001_wangerx_bilixiqu_2",
-   "name": " 🅱‍哔哩┃戏曲🅱‍",
+   "key": "l001_wangerx_初中课堂_20",
+   "name": "📚初中┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/183E562_773_xiqu_20251130182006749newMediaImage.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
    }
   },
   {
@@ -606,13 +637,20 @@
    }
   },
   {
-   "key": "aiting",
-   "name": "🎧┆爱听┆音乐",
+   "key": "l001_wangerx_小学课堂_21",
+   "name": "📚┆小学┆课堂",
    "type": 3,
-   "api": "csp_AiTingMusic",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+   }
   },
   {
    "key": "l001_wangerx_push_agent_51",
@@ -700,20 +738,19 @@
    "timeout": 60
   },
   {
-   "key": "l001_wangerx_biliych_4",
-   "name": " 🅱‍哔哩┃歌曲🅱‍",
+   "key": "l001_wangerx_高中教育_18",
+   "name": "📚高中┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
    }
   },
   {
@@ -774,20 +811,19 @@
    "changeable": 1
   },
   {
-   "key": "l001_wangerx_biliych_5",
-   "name": " 🅱‍哔哩┃歌曲🅱‍",
+   "key": "l001_wangerx_高中教育_19",
+   "name": "📚高中┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
    }
   },
   {
@@ -801,20 +837,19 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/在线之家.json"
   },
   {
-   "key": "l001_wangerx_biliych_6",
-   "name": " 🅱‍哔哩┃歌曲🅱‍",
+   "key": "l001_wangerx_高中教育_20",
+   "name": "📚高中┃课堂📚",
    "type": 3,
    "api": "csp_BiliGuard",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 1,
-   "changeable": 0,
    "style": {
     "type": "rect",
-    "ratio": 1.433
+    "ratio": 1.597
    },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "json": "https://support-chat.rongcloud.cn/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBYkU9IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--3083f43a14e6b59f4bfe248478a3a8765b34bfdd/bilisong.txt"
+    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
    }
   },
   {
@@ -831,20 +866,19 @@
    }
   },
   {
-   "key": "Music24bit",
-   "name": "🎼┆无损┆音乐",
+   "key": "l001_wangerx_初中课堂_21",
+   "name": "📐┆初中┆课堂",
    "type": 3,
-   "api": "csp_Music24bit",
-   "searchable": 1,
-   "changeable": 1,
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
    "ext": {
-    "categories": [
-     "周杰伦",
-     "林俊杰",
-     "陈奕迅",
-     "邓紫棋",
-     "薛之谦"
-    ]
+    "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
    }
   },
   {
@@ -884,20 +918,12 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu4/影视/js/腾讯视频.js"
   },
   {
-   "key": "l001_wangerx_少儿教育_20",
-   "name": "📚少儿┃教育📚",
+   "key": "SoAiHaiYin",
+   "name": "🎠盘搜┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
-   }
+   "api": "csp_SoAiHaiYinGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_js_骚火电影_2",
@@ -947,20 +973,12 @@
    "ext": "https://jiekou.netlify.app/XYQHiker/农民影视.json"
   },
   {
-   "key": "l001_wangerx_少儿教育_21",
-   "name": "📚少儿┃教育📚",
+   "key": "l001_wangerx_SoAiHaiYin_1",
+   "name": "🎠盘搜┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
-   }
+   "api": "csp_SoAiHaiYinGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_西瓜影视_1",
@@ -973,20 +991,12 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/西瓜影视.json"
   },
   {
-   "key": "l001_wangerx_少儿教育_22",
-   "name": "📚少儿┃教育📚",
+   "key": "l001_wangerx_SoAiHaiYin_2",
+   "name": "🎠盘搜┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/3C3AB7A_773_ertong_20250828171550247newMediaImage.txt"
-   }
+   "api": "csp_SoAiHaiYinGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "天翼云盘",
@@ -1002,13 +1012,20 @@
    }
   },
   {
-   "key": "TuXiaoBei",
-   "name": "🐰┆小兔┆少儿",
+   "key": "l001_wangerx_高中教育_21",
+   "name": "🎓┆高中┆课堂",
    "type": 3,
-   "api": "csp_TuXiaoBei",
-   "searchable": 1,
-   "quickSearch": 1,
-   "filterable": 0
+   "api": "csp_Bili",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
+   }
   },
   {
    "key": "csp_TVB",
@@ -1047,20 +1064,12 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu4/影视/js/优酷视频.js"
   },
   {
-   "key": "l001_wangerx_小学课堂_18",
-   "name": "📚小学┃课堂📚",
+   "key": "SoAiPanSoo",
+   "name": "🎠九七┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
-   }
+   "api": "csp_SoAiPanSooGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_dr_荐片_2",
@@ -1121,20 +1130,12 @@
    "api": "https://clun.top/py/yymp3.py"
   },
   {
-   "key": "l001_wangerx_小学课堂_19",
-   "name": "📚小学┃课堂📚",
+   "key": "l001_wangerx_SoAiPanSoo_1",
+   "name": "🎠九七┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
-   }
+   "api": "csp_SoAiPanSooGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_看一看_1",
@@ -1147,20 +1148,12 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/看一看.json"
   },
   {
-   "key": "l001_wangerx_小学课堂_20",
-   "name": "📚小学┃课堂📚",
+   "key": "l001_wangerx_SoAiPanSoo_2",
+   "name": "🎠九七┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/4A3AA71_773_xiaoxue_20250828171535645newMediaImage.txt"
-   }
+   "api": "csp_SoAiPanSooGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "123云盘",
@@ -1176,13 +1169,20 @@
    }
   },
   {
-   "key": "BeiLeHu",
-   "name": "🐯┆小虎┆少儿",
+   "key": "l001_wangerx_BiliHeji_1",
+   "name": "🎉┆笔璃┆合集",
    "type": 3,
-   "api": "csp_BeiLeHu",
-   "searchable": 0,
-   "quickSearch": 0,
-   "filterable": 0
+   "api": "csp_Bili",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 0,
+   "ext": {
+    "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
+   },
+   "style": {
+    "type": "rect",
+    "ratio": 1.433
+   }
   },
   {
    "key": "csp_骚火",
@@ -1221,20 +1221,12 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu4/影视/js/芒果视频.js"
   },
   {
-   "key": "l001_wangerx_初中课堂_18",
-   "name": "📚初中┃课堂📚",
+   "key": "SoAiAiPanSo",
+   "name": "🎠爱盘┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
-   }
+   "api": "csp_SoAiAiPanSoGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_js_Lib_2",
@@ -1304,20 +1296,12 @@
    "ext": "https://clun.top/js/drpy2.js"
   },
   {
-   "key": "l001_wangerx_初中课堂_19",
-   "name": "📚初中┃课堂📚",
+   "key": "l001_wangerx_SoAiAiPanSo_1",
+   "name": "🎠爱盘┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
-   }
+   "api": "csp_SoAiAiPanSoGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_人人筷子_1",
@@ -1330,20 +1314,12 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/人人筷子.json"
   },
   {
-   "key": "l001_wangerx_初中课堂_20",
-   "name": "📚初中┃课堂📚",
+   "key": "l001_wangerx_SoAiAiPanSo_2",
+   "name": "🎠爱盘┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/19B1839_773_chuzhong_20250828171521929newMediaImage.txt"
-   }
+   "api": "csp_SoAiAiPanSoGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "觅盘",
@@ -1356,19 +1332,19 @@
    "timeout": 60
   },
   {
-   "key": "l001_wangerx_少儿教育_23",
-   "name": "🧒┆少儿┆教育",
+   "name": "🎉┆笔璃┆歌曲",
+   "key": "l001_wangerx_BiliGequ_1",
    "type": 3,
    "api": "csp_Bili",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
    "searchable": 0,
    "quickSearch": 0,
    "changeable": 0,
    "ext": {
-    "json": "https://nos.netease.com/ysf/89370c8ddf36b5e1beb4d71adb921bda.txt"
+    "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
+   },
+   "style": {
+    "type": "rect",
+    "ratio": 1.433
    }
   },
   {
@@ -1408,20 +1384,12 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu4/影视/js/爱奇艺.js"
   },
   {
-   "key": "l001_wangerx_高中教育_18",
-   "name": "📚高中┃课堂📚",
+   "key": "SoKaKa",
+   "name": "🎠卡卡┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
-   }
+   "api": "csp_SoKaKaGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_js_czsapp_2",
@@ -1481,20 +1449,12 @@
    "ext": "https://clun.top/lib/feimaolive.json"
   },
   {
-   "key": "l001_wangerx_高中教育_19",
-   "name": "📚高中┃课堂📚",
+   "key": "l001_wangerx_SoKaKa_1",
+   "name": "🎠卡卡┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
-   }
+   "api": "csp_SoKaKaGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_番茄影视_1",
@@ -1507,20 +1467,12 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/番茄影视.json"
   },
   {
-   "key": "l001_wangerx_高中教育_20",
-   "name": "📚高中┃课堂📚",
+   "key": "l001_wangerx_SoKaKa_2",
+   "name": "🎠卡卡┃综合🎠",
    "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://storage.7x24cc.com/storage-server/presigned/ss1/a6-online-fileupload/newMediaImage/345A587_773_gaozhong_20250828171449997newMediaImage.txt"
-   }
+   "api": "csp_SoKaKaGuard",
+   "searchable": 1,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_盘搜_3",
@@ -1533,19 +1485,16 @@
    "timeout": 60
   },
   {
-   "key": "l001_wangerx_小学课堂_21",
-   "name": "📚┆小学┆课堂",
+   "key": "l001_wangerx_Kanqiu_1",
+   "name": "⚽┆看球┆体育",
    "type": 3,
-   "api": "csp_Bili",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
+   "api": "csp_Kanqiu",
    "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://nos.netease.com/ysf/d7a21cf34ede56f5c686ecfba5fc7e3f.txt"
+   "filterable": 1,
+   "indexs": 0,
+   "ext": "http://www.88kanqiu.one",
+   "style": {
+    "type": "list"
    }
   },
   {
@@ -1571,10 +1520,10 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu1/lib/奇优影视.json"
   },
   {
-   "key": "SoAiHaiYin",
-   "name": "🎠盘搜┃综合🎠",
+   "key": "SoAiQuanPanGuard",
+   "name": "🎠全盘┃综合🎠",
    "type": 3,
-   "api": "csp_SoAiHaiYinGuard",
+   "api": "csp_SoAiQuanPanGuard",
    "searchable": 1,
    "changeable": 0
   },
@@ -1624,10 +1573,10 @@
    "filterable": 1
   },
   {
-   "key": "l001_wangerx_SoAiHaiYin_1",
-   "name": "🎠盘搜┃综合🎠",
+   "key": "l001_wangerx_SoAiQuanPanGuard_1",
+   "name": "🎠全盘┃综合🎠",
    "type": 3,
-   "api": "csp_SoAiHaiYinGuard",
+   "api": "csp_SoAiQuanPanGuard",
    "searchable": 1,
    "changeable": 0
   },
@@ -1642,10 +1591,10 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/哆咪.json"
   },
   {
-   "key": "l001_wangerx_SoAiHaiYin_2",
-   "name": "🎠盘搜┃综合🎠",
+   "key": "l001_wangerx_SoAiQuanPanGuard_2",
+   "name": "🎠全盘┃综合🎠",
    "type": 3,
-   "api": "csp_SoAiHaiYinGuard",
+   "api": "csp_SoAiQuanPanGuard",
    "searchable": 1,
    "changeable": 0
   },
@@ -1660,19 +1609,15 @@
    "timeout": 60
   },
   {
-   "key": "l001_wangerx_初中课堂_21",
-   "name": "📐┆初中┆课堂",
+   "key": "Sir88",
+   "name": "🏟️┆超全┆体育",
    "type": 3,
-   "api": "csp_Bili",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
+   "api": "csp_Sir88",
    "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://nos.netease.com/ysf/8f55d520f8d70056695740ef151744a7.txt"
+   "filterable": 1,
+   "indexs": 0,
+   "style": {
+    "type": "list"
    }
   },
   {
@@ -1698,10 +1643,10 @@
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu1/lib/疯狗影视.json"
   },
   {
-   "key": "SoAiPanSoo",
-   "name": "🎠九七┃综合🎠",
+   "key": "l001_wangerx_push_agent_58",
+   "name": "推送",
    "type": 3,
-   "api": "csp_SoAiPanSooGuard",
+   "api": "csp_PushGuard",
    "searchable": 1,
    "changeable": 0
   },
@@ -1765,10 +1710,10 @@
    "playerType": 2
   },
   {
-   "key": "l001_wangerx_SoAiPanSoo_1",
-   "name": "🎠九七┃综合🎠",
+   "key": "l001_wangerx_push_agent_59",
+   "name": "推送",
    "type": 3,
-   "api": "csp_SoAiPanSooGuard",
+   "api": "csp_PushGuard",
    "searchable": 1,
    "changeable": 0
   },
@@ -1783,10 +1728,10 @@
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/万博剧院.json"
   },
   {
-   "key": "l001_wangerx_SoAiPanSoo_2",
-   "name": "🎠九七┃综合🎠",
+   "key": "l001_wangerx_push_agent_60",
+   "name": "推送",
    "type": 3,
-   "api": "csp_SoAiPanSooGuard",
+   "api": "csp_PushGuard",
    "searchable": 1,
    "changeable": 0
   },
@@ -1801,20 +1746,13 @@
    "timeout": 60
   },
   {
-   "key": "l001_wangerx_高中教育_21",
-   "name": "🎓┆高中┆课堂",
+   "key": "QiutongTY",
+   "name": "🏀┆球通┆体育",
    "type": 3,
-   "api": "csp_Bili",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
+   "api": "csp_QiutongTY",
    "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://nos.netease.com/ysf/c66a4b5356141c49fd45ec51568017b4.txt"
-   }
+   "filterable": 0,
+   "changeable": 1
   },
   {
    "key": "csp_万达",
@@ -1837,14 +1775,6 @@
    "filterable": 1,
    "jar": "./lib/HCCX.jar",
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu1/lib/万达影视.json"
-  },
-  {
-   "key": "SoAiAiPanSo",
-   "name": "🎠爱盘┃综合🎠",
-   "type": 3,
-   "api": "csp_SoAiAiPanSoGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "l001_wangerx_js_Xinsj_2",
@@ -1904,14 +1834,6 @@
    "filterable": 1
   },
   {
-   "key": "l001_wangerx_SoAiAiPanSo_1",
-   "name": "🎠爱盘┃综合🎠",
-   "type": 3,
-   "api": "csp_SoAiAiPanSoGuard",
-   "searchable": 1,
-   "changeable": 0
-  },
-  {
    "key": "l001_wangerx_影渣渣_1",
    "name": "😚影渣渣 ",
    "type": 3,
@@ -1920,14 +1842,6 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/影渣渣.json"
-  },
-  {
-   "key": "l001_wangerx_SoAiAiPanSo_2",
-   "name": "🎠爱盘┃综合🎠",
-   "type": 3,
-   "api": "csp_SoAiAiPanSoGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "鬼鬼",
@@ -1940,20 +1854,13 @@
    "timeout": 60
   },
   {
-   "key": "l001_wangerx_BiliHeji_1",
-   "name": "🎉┆笔璃┆合集",
+   "key": "GuaziTY",
+   "name": "🥜┆瓜子┆体育",
    "type": 3,
-   "api": "csp_Bili",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 0,
-   "ext": {
-    "json": "https://nos.netease.com/ysf/0075389dca9afadd4614e9713765ff17.txt"
-   },
-   "style": {
-    "type": "rect",
-    "ratio": 1.433
-   }
+   "api": "csp_GuaziTY",
+   "searchable": 0,
+   "filterable": 0,
+   "changeable": 1
   },
   {
    "key": "csp_爱看",
@@ -1976,14 +1883,6 @@
    "filterable": 1,
    "jar": "./lib/HCCX.jar",
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu1/lib/爱看影视.json"
-  },
-  {
-   "key": "SoKaKa",
-   "name": "🎠卡卡┃综合🎠",
-   "type": 3,
-   "api": "csp_SoKaKaGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "l001_wangerx_js_农民_2",
@@ -2027,14 +1926,6 @@
    "ext": "https://jiekou.netlify.app/XBPQ/海纳影视.json"
   },
   {
-   "key": "l001_wangerx_SoKaKa_1",
-   "name": "🎠卡卡┃综合🎠",
-   "type": 3,
-   "api": "csp_SoKaKaGuard",
-   "searchable": 1,
-   "changeable": 0
-  },
-  {
    "key": "l001_wangerx_锐行加速_1",
    "name": "❤ 锐行加速",
    "type": 3,
@@ -2043,14 +1934,6 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/锐行加速.json"
-  },
-  {
-   "key": "l001_wangerx_SoKaKa_2",
-   "name": "🎠卡卡┃综合🎠",
-   "type": 3,
-   "api": "csp_SoKaKaGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "趣盘",
@@ -2063,20 +1946,13 @@
    "timeout": 60
   },
   {
-   "name": "🎉┆笔璃┆歌曲",
-   "key": "l001_wangerx_BiliGequ_1",
+   "key": "919TY",
+   "name": "🏅┆919┆体育",
    "type": 3,
-   "api": "csp_Bili",
+   "api": "csp_C919TY",
    "searchable": 0,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "https://nos.netease.com/ysf/6496356286589c68f52c2f99c0c674c7.txt"
-   },
-   "style": {
-    "type": "rect",
-    "ratio": 1.433
-   }
+   "filterable": 0,
+   "changeable": 1
   },
   {
    "key": "csp_七新",
@@ -2099,14 +1975,6 @@
    "filterable": 1,
    "jar": "./lib/HCCX.jar",
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu1/lib/七新影视.json"
-  },
-  {
-   "key": "SoAiQuanPanGuard",
-   "name": "🎠全盘┃综合🎠",
-   "type": 3,
-   "api": "csp_SoAiQuanPanGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "l001_wangerx_js_bzys_2",
@@ -2164,14 +2032,6 @@
    "ext": "https://clun.top/js/s/小镇.json"
   },
   {
-   "key": "l001_wangerx_SoAiQuanPanGuard_1",
-   "name": "🎠全盘┃综合🎠",
-   "type": 3,
-   "api": "csp_SoAiQuanPanGuard",
-   "searchable": 1,
-   "changeable": 0
-  },
-  {
    "key": "l001_wangerx_明帝影视_1",
    "name": "😁明帝影视",
    "type": 3,
@@ -2180,14 +2040,6 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/明帝影视.json"
-  },
-  {
-   "key": "l001_wangerx_SoAiQuanPanGuard_2",
-   "name": "🎠全盘┃综合🎠",
-   "type": 3,
-   "api": "csp_SoAiQuanPanGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "l001_wangerx_88看球_8",
@@ -2202,14 +2054,13 @@
    }
   },
   {
-   "key": "l001_wangerx_Kanqiu_1",
-   "name": "⚽┆看球┆体育",
+   "key": "TingBook",
+   "name": "📻┆六月┆有声",
    "type": 3,
-   "api": "csp_Kanqiu",
-   "searchable": 0,
-   "filterable": 1,
+   "api": "csp_TingBook",
+   "searchable": 1,
    "indexs": 0,
-   "ext": "http://www.88kanqiu.one",
+   "ext": "https://app.365ting.com",
    "style": {
     "type": "list"
    }
@@ -2235,14 +2086,6 @@
    "filterable": 1,
    "jar": "./lib/HCCX.jar",
    "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianlu1/lib/超前B站.json"
-  },
-  {
-   "key": "l001_wangerx_push_agent_58",
-   "name": "推送",
-   "type": 3,
-   "api": "csp_PushGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "l001_wangerx_js_555_2",
@@ -2300,14 +2143,6 @@
    "ext": "https://clun.top/js/s/狐狸君.json"
   },
   {
-   "key": "l001_wangerx_push_agent_59",
-   "name": "推送",
-   "type": 3,
-   "api": "csp_PushGuard",
-   "searchable": 1,
-   "changeable": 0
-  },
-  {
    "key": "l001_wangerx_奇优影视_5",
    "name": "😮奇优影视",
    "type": 3,
@@ -2316,14 +2151,6 @@
    "quickSearch": 1,
    "filterable": 1,
    "ext": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/XBPQ/奇优影视.json"
-  },
-  {
-   "key": "l001_wangerx_push_agent_60",
-   "name": "推送",
-   "type": 3,
-   "api": "csp_PushGuard",
-   "searchable": 1,
-   "changeable": 0
   },
   {
    "key": "飞球体育",
@@ -2338,13 +2165,14 @@
    }
   },
   {
-   "key": "Sir88",
-   "name": "🏟️┆超全┆体育",
+   "key": "TingBookJinXia",
+   "name": "🎙️┆堇夏┆有声",
    "type": 3,
-   "api": "csp_Sir88",
-   "searchable": 0,
+   "api": "csp_TingBookJinXia",
+   "searchable": 1,
    "filterable": 1,
    "indexs": 0,
+   "ext": "https://m.ting15.com",
    "style": {
     "type": "list"
    }
@@ -2446,13 +2274,15 @@
    }
   },
   {
-   "key": "QiutongTY",
-   "name": "🏀┆球通┆体育",
+   "key": "TingYou",
+   "name": "🎧┆听友┆有声",
    "type": 3,
-   "api": "csp_QiutongTY",
-   "searchable": 0,
-   "filterable": 0,
-   "changeable": 1
+   "api": "csp_TingYou",
+   "searchable": 1,
+   "indexs": 0,
+   "style": {
+    "type": "list"
+   }
   },
   {
    "key": "csp_不卡",
@@ -2537,13 +2367,35 @@
    }
   },
   {
-   "key": "GuaziTY",
-   "name": "🥜┆瓜子┆体育",
+   "key": "Market",
+   "name": "🛒┆网盘┆市场",
    "type": 3,
-   "api": "csp_GuaziTY",
+   "api": "csp_Market",
    "searchable": 0,
-   "filterable": 0,
-   "changeable": 1
+   "indexs": 0,
+   "style": {
+    "type": "list"
+   },
+   "ext": {
+    "categories": [
+     {
+      "name": "潇洒资源一",
+      "url": "https://pan.quark.cn/s/969cc97687d3"
+     },
+     {
+      "name": "潇洒资源二",
+      "url": "https://drive.uc.cn/s/ba531661b3eb4"
+     },
+     {
+      "name": "奇奇更新一",
+      "url": "https://pan.quark.cn/s/ab00f85da8ea"
+     },
+     {
+      "name": "奇奇更新二",
+      "url": "https://drive.uc.cn/s/ef22fcbfdd934"
+     }
+    ]
+   }
   },
   {
    "key": "csp_午舞",
@@ -2628,13 +2480,14 @@
    }
   },
   {
-   "key": "919TY",
-   "name": "🏅┆919┆体育",
+   "key": "l001_wangerx_push_agent_61",
+   "name": "💌┆推送┆接收",
    "type": 3,
-   "api": "csp_C919TY",
+   "api": "csp_Push",
    "searchable": 0,
-   "filterable": 0,
-   "changeable": 1
+   "changeable": 0,
+   "indexs": 0,
+   "timeout": 60
   },
   {
    "key": "csp_视觉",
@@ -2719,16 +2572,14 @@
    }
   },
   {
-   "key": "TingBook",
-   "name": "📻┆六月┆有声",
+   "key": "Fishdrive",
+   "name": "🐠┆摸鱼┆媒体库",
    "type": 3,
-   "api": "csp_TingBook",
-   "searchable": 1,
+   "api": "csp_FishDrive",
    "indexs": 0,
-   "ext": "https://app.365ting.com",
-   "style": {
-    "type": "list"
-   }
+   "searchable": 1,
+   "filterable": 1,
+   "ext": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260715/bf45/fishdrive.json"
   },
   {
    "key": "csp_圣城",
@@ -2813,16 +2664,17 @@
    }
   },
   {
-   "key": "TingBookJinXia",
-   "name": "🎙️┆堇夏┆有声",
+   "key": "Wallpaper",
+   "name": "🖼️┆摸鱼┆壁纸库",
    "type": 3,
-   "api": "csp_TingBookJinXia",
-   "searchable": 1,
-   "filterable": 1,
+   "api": "csp_Wallpaper",
+   "searchable": 0,
    "indexs": 0,
-   "ext": "https://m.ting15.com",
+   "quickSearch": 0,
+   "filterable": 0,
    "style": {
-    "type": "list"
+    "type": "rect",
+    "ratio": 0.56
    }
   },
   {
@@ -2904,17 +2756,6 @@
    "quickSearch": 0,
    "changeable": 0,
    "ext": "https://m.ting15.com",
-   "style": {
-    "type": "list"
-   }
-  },
-  {
-   "key": "TingYou",
-   "name": "🎧┆听友┆有声",
-   "type": 3,
-   "api": "csp_TingYou",
-   "searchable": 1,
-   "indexs": 0,
    "style": {
     "type": "list"
    }
@@ -3002,37 +2843,6 @@
    }
   },
   {
-   "key": "Market",
-   "name": "🛒┆网盘┆市场",
-   "type": 3,
-   "api": "csp_Market",
-   "searchable": 0,
-   "indexs": 0,
-   "style": {
-    "type": "list"
-   },
-   "ext": {
-    "categories": [
-     {
-      "name": "潇洒资源一",
-      "url": "https://pan.quark.cn/s/969cc97687d3"
-     },
-     {
-      "name": "潇洒资源二",
-      "url": "https://drive.uc.cn/s/ba531661b3eb4"
-     },
-     {
-      "name": "奇奇更新一",
-      "url": "https://pan.quark.cn/s/ab00f85da8ea"
-     },
-     {
-      "name": "奇奇更新二",
-      "url": "https://drive.uc.cn/s/ef22fcbfdd934"
-     }
-    ]
-   }
-  },
-  {
    "key": "csp_日后",
    "name": "🅱️┃348┃影视",
    "type": 3,
@@ -3113,16 +2923,6 @@
    "style": {
     "type": "list"
    }
-  },
-  {
-   "key": "l001_wangerx_push_agent_61",
-   "name": "💌┆推送┆接收",
-   "type": 3,
-   "api": "csp_Push",
-   "searchable": 0,
-   "changeable": 0,
-   "indexs": 0,
-   "timeout": 60
   },
   {
    "key": "csp_土豪",
@@ -3206,16 +3006,6 @@
     "type": "rect",
     "ratio": 1.618
    }
-  },
-  {
-   "key": "Fishdrive",
-   "name": "🐠┆摸鱼┆媒体库",
-   "type": 3,
-   "api": "csp_FishDrive",
-   "indexs": 0,
-   "searchable": 1,
-   "filterable": 1,
-   "ext": "https://tc-new.z.wiki/autoupload/iYHTWVx6T8RrCmqdGD6MOdiO_OyvX7mIgxFBfDMDErs/20260715/bf45/fishdrive.json"
   },
   {
    "key": "csp_兔年",
@@ -3302,20 +3092,6 @@
    "style": {
     "type": "rect",
     "ratio": 1.618
-   }
-  },
-  {
-   "key": "Wallpaper",
-   "name": "🖼️┆摸鱼┆壁纸库",
-   "type": 3,
-   "api": "csp_Wallpaper",
-   "searchable": 0,
-   "indexs": 0,
-   "quickSearch": 0,
-   "filterable": 0,
-   "style": {
-    "type": "rect",
-    "ratio": 0.56
    }
   },
   {
