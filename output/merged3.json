@@ -18,22 +18,6 @@
  "warningText": "由 yingshi 聚合 78 条线路自动合并生成（第3卷），仅供学习交流",
  "sites": [
   {
-   "key": "l001_wangerx_Bili_4",
-   "name": "🅱哔哔合集┃弹幕",
-   "type": 3,
-   "api": "csp_BiliGuard",
-   "style": {
-    "type": "rect",
-    "ratio": 1.597
-   },
-   "searchable": 1,
-   "quickSearch": 0,
-   "changeable": 0,
-   "ext": {
-    "json": "./lib/0075389dca9afadd4614e9713765ff17.txt"
-   }
-  },
-  {
    "key": "l001_wangerx_biliych_3",
    "name": "🅱哔哩┃歌曲",
    "type": 3,
@@ -16177,13 +16161,13 @@
    "playerType": 2
   },
   {
-   "name": "🔍┃飞鱼┃盘搜",
-   "key": "PSfish",
+   "name": "🏪┃应用┃商店",
+   "key": "Store",
    "type": 3,
-   "api": "csp_PSfishAmns",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
+   "api": "csp_StoreAmns",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_央视影视_1",
@@ -16416,13 +16400,13 @@
    "playerType": 2
   },
   {
-   "name": "🔍┃觅寻┃盘搜",
-   "key": "PSdju",
+   "name": "🏪┃壁纸┃商店",
+   "key": "WPbzm",
    "type": 3,
-   "api": "csp_PSdjuAmns",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
+   "api": "csp_WPbzmAmns",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_五八PY_1",
@@ -16667,12 +16651,12 @@
    "playerType": 2
   },
   {
-   "name": "🛴┃推送┃播放",
-   "key": "l001_wangerx_push_agent_50",
+   "name": "🔍┃飞鱼┃盘搜",
+   "key": "PSfish",
    "type": 3,
-   "api": "csp_PushAmns",
-   "searchable": 0,
-   "quickSearch": 0,
+   "api": "csp_PSfishAmns",
+   "searchable": 1,
+   "quickSearch": 1,
    "changeable": 1
   },
   {
@@ -16898,6 +16882,15 @@
    "filterable": 1,
    "order_num": 0,
    "ext": "https://jiekou.netlify.app/js/布雷.js"
+  },
+  {
+   "name": "🔍┃觅寻┃盘搜",
+   "key": "PSdju",
+   "type": 3,
+   "api": "csp_PSdjuAmns",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
   },
   {
    "key": "l001_wangerx_布雷影视_1",
@@ -17138,6 +17131,15 @@
    "api": "csp_YD",
    "searchable": 1,
    "quickSearch": 1
+  },
+  {
+   "name": "🛴┃推送┃播放",
+   "key": "l001_wangerx_push_agent_50",
+   "type": 3,
+   "api": "csp_PushAmns",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_移动_2",
@@ -17545,18 +17547,6 @@
   },
   {
    "key": "l001_wangerx_AList_11",
-   "name": "😇网盘┃Alist",
-   "type": 3,
-   "api": "csp_AList",
-   "searchable": 1,
-   "filterable": 1,
-   "changeable": 1,
-   "timeout": 60,
-   "playerType": 2,
-   "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianluheji/19/lib/alist.json"
-  },
-  {
-   "key": "l001_wangerx_AList_12",
    "name": "😇网盘┃Alist",
    "type": 3,
    "api": "csp_AList",
@@ -19873,12 +19863,12 @@
    }
   },
   {
-   "name": "云播",
+   "name": "嗷呜",
    "type": 0,
    "url": "https://free.maccms.xyz?url="
   },
   {
-   "name": "77",
+   "name": "真帅",
    "type": 0,
    "url": "https://jx.77flv.cc/?url="
   },
@@ -21300,6 +21290,11 @@
      "User-Agent": "okhttp/4.9.1"
     }
    }
+  },
+  {
+   "name": "77",
+   "type": 0,
+   "url": "https://jx.77flv.cc/?url="
   },
   {
    "name": "qiyi[官源]",

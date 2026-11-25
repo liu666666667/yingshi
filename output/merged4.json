@@ -18,6 +18,18 @@
  "warningText": "由 yingshi 聚合 78 条线路自动合并生成（第4卷），仅供学习交流",
  "sites": [
   {
+   "key": "l001_wangerx_AList_12",
+   "name": "😇网盘┃Alist",
+   "type": 3,
+   "api": "csp_AList",
+   "searchable": 1,
+   "filterable": 1,
+   "changeable": 1,
+   "timeout": 60,
+   "playerType": 2,
+   "ext": "https://raw.githubusercontent.com/liu666666667/yingshicang/refs/heads/master/dianying/xianluheji/19/lib/alist.json"
+  },
+  {
    "key": "l001_wangerx_少儿教育_20",
    "name": "📚少儿┃教育📚",
    "type": 3,
@@ -15510,12 +15522,12 @@
    }
   },
   {
-   "name": "云播",
+   "name": "嗷呜",
    "type": 0,
    "url": "https://free.maccms.xyz?url="
   },
   {
-   "name": "77",
+   "name": "真帅",
    "type": 0,
    "url": "https://jx.77flv.cc/?url="
   },
@@ -16937,6 +16949,11 @@
      "User-Agent": "okhttp/4.9.1"
     }
    }
+  },
+  {
+   "name": "77",
+   "type": 0,
+   "url": "https://jx.77flv.cc/?url="
   },
   {
    "name": "qiyi[官源]",

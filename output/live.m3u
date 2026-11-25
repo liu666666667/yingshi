@@ -93,6 +93,10 @@ https://0472.org/hls/cgtnx.m3u8
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV3
 http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV8
+http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV12
+http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视频道",CCTV13
 http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
 #EXTINF:-1 group-title="央视频道",CGTN法语
@@ -569,8 +573,6 @@ https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa254
 http://stream8.jlntv.cn/dhtv/playlist.m3u8
 #EXTINF:-1 group-title="地方频道",晋江电视台
 http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
-#EXTINF:-1 group-title="地方频道",普陀电视台
-https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
 #EXTINF:-1 group-title="地方频道",朝天综合
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 #EXTINF:-1 group-title="地方频道",来宾综合
@@ -586,11 +588,9 @@ http://stream5.jlntv.cn/wq/sd/live.m3u8
 #EXTINF:-1 group-title="地方频道",津南一套
 http://play.jinnantv.top/live/JNTV1.m3u8?ztianjd
 #EXTINF:-1 group-title="地方频道",浙江国际
-http://ali-m-l.cztv.com/channels/lantian/channel010/720p.m3u8
+https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8?
 #EXTINF:-1 group-title="地方频道",浙江留学
 http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经济生活
-http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
 #EXTINF:-1 group-title="地方频道",浙江钱江频道
 http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
 #EXTINF:-1 group-title="地方频道",玛纳斯综合
@@ -599,16 +599,12 @@ http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,
 http://222.179.42.129:8181/hls1.m3u8
 #EXTINF:-1 group-title="地方频道",甘南县综合
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
-#EXTINF:-1 group-title="地方频道",甘孜综合
-http://tv.drs.ganzitv.com:8100/channellive/gztv.flv
 #EXTINF:-1 group-title="地方频道",番禺综合
 http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv
 #EXTINF:-1 group-title="地方频道",舒兰新闻综合
 http://stream8.jlntv.cn/shulan/sd/live.m3u8?_upt=332db6421699196585
 #EXTINF:-1 group-title="地方频道",萧山综合
 http://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",西安新闻
-http://112.46.105.20:8009/hls/28/index.m3u8
 #EXTINF:-1 group-title="地方频道",西安都市
 http://112.46.105.20:8009/hls/29/index.m3u8
 #EXTINF:-1 group-title="地方频道",辉南新闻综合
@@ -625,12 +621,14 @@ http://cm-wshls.homecdn.com/live/2aa50.m3u8
 https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
 #EXTINF:-1 group-title="地方频道",长白山电视台
 http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
+#EXTINF:-1 group-title="地方频道",陕西新闻咨询
+http://112.46.105.20:8009/hls/18/index.m3u8
+#EXTINF:-1 group-title="地方频道",陕西秦腔
+http://112.46.105.20:8009/hls/22/index.m3u8
 #EXTINF:-1 group-title="地方频道",陕西银龄
 http://112.46.105.20:8009/hls/20/index.m3u8
 #EXTINF:-1 group-title="地方频道",龙游新闻综合
 https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",龙游生活娱乐
-https://l.cztvcloud.com/channels/lantian/SXlongyou2/720p.m3u8
 #EXTINF:-1 group-title="4K8K频道",深圳卫视4K
 http://101.35.240.114:88/live.php?id=深圳卫视4K
 #EXTINF:-1 group-title="4K8K频道",江苏卫视4K
@@ -2725,6 +2723,14 @@ https://stream1.freetv.fun/ipv6-qi-qi-ha-er-xin-wen-zong-he-3.m3u8
 http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
 #EXTINF:-1 group-title="☘️黑龙江频道",七台河民生社教
 http://yp.qqqtv.top/1/api.php?id=%E4%B8%83%E5%8F%B0%E6%B2%B3%E6%B0%91%E7%94%9F%E7%A4%BE%E6%95%99&auth=666858
+#EXTINF:-1 group-title="儿童频道",名侦探柯南
+https://live.metshop.top/huya/30080236
+#EXTINF:-1 group-title="儿童频道",哆啦A梦
+https://live.metshop.top/huya/11601963
+#EXTINF:-1 group-title="儿童频道",喜羊羊与灰太狼
+https://live.metshop.top/huya/23865080
+#EXTINF:-1 group-title="儿童频道",灌篮高手
+https://live.metshop.top/yy/1382735626
 #EXTINF:-1 group-title="儿童频道",韩国EBS少儿
 http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1 group-title="其他频道",老故事
@@ -2918,17 +2924,21 @@ https://live.metshop.top/huya/29465853
 #EXTINF:-1 group-title="电影频道",宇宙科幻合集
 https://live.metshop.top/huya/11342428
 #EXTINF:-1 group-title="电影频道",寻秦记
-https://live.metshop.top/huya/29465848
+https://live.metshop.top/huya/30080146
 #EXTINF:-1 group-title="电影频道",强森电影
 https://live.metshop.top/huya/21059581
 #EXTINF:-1 group-title="电影频道",怪兽电影
 https://live.metshop.top/huya/21059577
+#EXTINF:-1 group-title="电影频道",成龙电影
+https://live.metshop.top/huya/11342386
 #EXTINF:-1 group-title="电影频道",战争电影
 https://live.metshop.top/huya/21059574
 #EXTINF:-1 group-title="电影频道",扫黄先锋
 https://live.metshop.top/huya/29465855
 #EXTINF:-1 group-title="电影频道",无心法师
 https://live.metshop.top/huya/30080233
+#EXTINF:-1 group-title="电影频道",末日电影合集
+https://live.metshop.top/yy/1354889019
 #EXTINF:-1 group-title="电影频道",李连杰电影
 https://live.metshop.top/huya/11342390
 #EXTINF:-1 group-title="电影频道",林正英电影
@@ -2947,6 +2957,8 @@ https://live.metshop.top/huya/23863804
 https://live.metshop.top/huya/29465851
 #EXTINF:-1 group-title="电影频道",活佛济公3
 https://live.metshop.top/huya/23903123
+#EXTINF:-1 group-title="电影频道",浙江教科影视
+http://ali-vl.cztv.com/channels/lantian/channel004/360p.m3u8
 #EXTINF:-1 group-title="电影频道",狄仁杰电影
 https://live.metshop.top/huya/30080229
 #EXTINF:-1 group-title="电影频道",玄幻电影
@@ -3007,6 +3019,8 @@ https://live.metshop.top/huya/29465847
 https://live.metshop.top/huya/23903183
 #EXTINF:-1 group-title="电影频道",陀枪师姐
 https://live.metshop.top/huya/29465857
+#EXTINF:-1 group-title="电影频道",鹿鼎记
+https://live.metshop.top/huya/23650774
 #EXTINF:-1 group-title="电影频道",黄渤电影
 https://live.metshop.top/huya/11352876
 #EXTINF:-1 group-title="纪录频道",东丰
@@ -3051,6 +3065,8 @@ http://stream8.jlntv.cn/jytv/sd/live.m3u8?zjild
 http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
 #EXTINF:-1 group-title="解说频道",笑看风云
 https://live.metshop.top/huya/29465858
+#EXTINF:-1 group-title="解说频道",谈判专家
+https://live.metshop.top/yy/1382735560
 #EXTINF:-1 group-title="音乐频道",AMC音乐
 https://AMChls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="音乐频道",音乐欣赏

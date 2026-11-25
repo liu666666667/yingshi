@@ -2909,14 +2909,14 @@
    "filterable": 0
   },
   {
-   "name": "🔆杜北┃秒播",
-   "key": "线路16",
+   "name": "🔆荐片┃快速",
+   "key": "线路17",
    "type": 3,
-   "api": "csp_DubkAmns",
+   "api": "csp_JPianAmns",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/Dubk"
+   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/JPian"
   },
   {
    "key": "csp_Jpys",
@@ -3861,14 +3861,13 @@
    "ext": "http://43.248.117.123:4680"
   },
   {
-   "name": "🔆荐片┃快速",
-   "key": "线路17",
+   "name": "🔆爱看┃采集",
+   "key": "线路18",
    "type": 3,
-   "api": "csp_JPianAmns",
+   "api": "csp_AiBotAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1,
-   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/JPian"
+   "changeable": 1
   },
   {
    "key": "YunZhenXiang",
@@ -4742,13 +4741,14 @@
    "filterable": 1
   },
   {
-   "name": "🔆爱看┃采集",
-   "key": "线路18",
+   "name": "呜嗷短剧",
+   "key": "短剧",
    "type": 3,
-   "api": "csp_AiBotAmns",
+   "api": "csp_HgggAmns",
    "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
+   "quickSearch": 0,
+   "changeable": 0,
+   "genre": "shortdrama"
   },
   {
    "key": "Osstexll",
@@ -5619,14 +5619,14 @@
    }
   },
   {
-   "name": "呜嗷短剧",
-   "key": "短剧",
+   "key": "l001_wangerx_商店_1",
+   "name": "🍬应用商店",
    "type": 3,
-   "api": "csp_HgggAmns",
-   "searchable": 1,
-   "quickSearch": 0,
+   "api": "csp_Market",
+   "searchable": 0,
    "changeable": 0,
-   "genre": "shortdrama"
+   "jar": "./jar/FM.jar",
+   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/ext/market.json"
   },
   {
    "key": "布布影视APP",
@@ -6520,16 +6520,6 @@
     "sk": "SK-woniu-thanks",
     "ver": "1"
    }
-  },
-  {
-   "key": "l001_wangerx_商店_1",
-   "name": "🍬应用商店",
-   "type": 3,
-   "api": "csp_Market",
-   "searchable": 0,
-   "changeable": 0,
-   "jar": "./jar/FM.jar",
-   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/ext/market.json"
   },
   {
    "key": "mac_mtyy7",
@@ -18633,6 +18623,22 @@
    "searchable": 1,
    "quickSearch": 0,
    "filterable": 0
+  },
+  {
+   "key": "l001_wangerx_Bili_4",
+   "name": "🅱哔哔合集┃弹幕",
+   "type": 3,
+   "api": "csp_BiliGuard",
+   "style": {
+    "type": "rect",
+    "ratio": 1.597
+   },
+   "searchable": 1,
+   "quickSearch": 0,
+   "changeable": 0,
+   "ext": {
+    "json": "./lib/0075389dca9afadd4614e9713765ff17.txt"
+   }
   }
  ],
  "lives": [
@@ -20940,12 +20946,12 @@
    }
   },
   {
-   "name": "云播",
+   "name": "嗷呜",
    "type": 0,
    "url": "https://free.maccms.xyz?url="
   },
   {
-   "name": "77",
+   "name": "真帅",
    "type": 0,
    "url": "https://jx.77flv.cc/?url="
   },
@@ -22367,6 +22373,11 @@
      "User-Agent": "okhttp/4.9.1"
     }
    }
+  },
+  {
+   "name": "77",
+   "type": 0,
+   "url": "https://jx.77flv.cc/?url="
   },
   {
    "name": "qiyi[官源]",

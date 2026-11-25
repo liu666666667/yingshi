@@ -1,21 +1,21 @@
 {
- "date": "2026-11-24 12:52:47",
+ "date": "2026-11-25 11:38:35",
  "channels": {
   "github": {
    "queries": 8,
    "repos": 18,
-   "candidates": 116
+   "candidates": 95
   },
   "ghcode": {
    "queries": 0,
    "files": 0,
    "candidates": 0,
    "errors": [
-    "spider parses extension: : name 'OWN_REPO_PREFIXES' is not defined",
+    "spider parses extension: : HTTP Error 429: Too Many Requests",
     "\"sites\" \"spiders\" extens : HTTP Error 429: Too Many Requests",
     "\"sites\" \"parses\" extensi : HTTP Error 429: Too Many Requests",
     "影视仓 extension:json : HTTP Error 429: Too Many Requests",
-    "tvbox 订阅 extension:json : HTTP Error 429: Too Many Requests",
+    "tvbox 订阅 extension:json : name 'OWN_REPO_PREFIXES' is not defined",
     "tvbox 接口 extension:json : HTTP Error 429: Too Many Requests",
     "饭太硬 extension:json : HTTP Error 429: Too Many Requests",
     "csp_ 影视 extension:json : HTTP Error 429: Too Many Requests"
@@ -23,8 +23,8 @@
   },
   "web": {
    "queries": 9,
-   "pages": 78,
-   "candidates": 11
+   "pages": 59,
+   "candidates": 4
   },
   "gitee": {
    "queries": 0,
@@ -40,13 +40,13 @@
    "lists": 0,
    "candidates": 0
   },
-  "candidates_total": 148,
-  "probed": 129,
+  "candidates_total": 120,
+  "probed": 101,
   "added_configs": 0,
   "added_lives": 0,
   "pruned": 0,
   "auto_configs": 0,
   "auto_lives": 0,
-  "elapsed_sec": 497.7
+  "elapsed_sec": 415.8
  }
 }

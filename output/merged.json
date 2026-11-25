@@ -2573,7 +2573,7 @@
    "ext": "https://jiekou.netlify.app/json/alist.json"
   },
   {
-   "name": "📁┃资源┃中心",
+   "name": "⚙️┃资源┃中心",
    "key": "MyAll",
    "type": 3,
    "api": "csp_MyAllAmns",
@@ -20009,12 +20009,12 @@
    }
   },
   {
-   "name": "云播",
+   "name": "嗷呜",
    "type": 0,
    "url": "https://free.maccms.xyz?url="
   },
   {
-   "name": "77",
+   "name": "真帅",
    "type": 0,
    "url": "https://jx.77flv.cc/?url="
   },
@@ -21436,6 +21436,11 @@
      "User-Agent": "okhttp/4.9.1"
     }
    }
+  },
+  {
+   "name": "77",
+   "type": 0,
+   "url": "https://jx.77flv.cc/?url="
   },
   {
    "name": "qiyi[官源]",

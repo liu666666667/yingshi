@@ -15,7 +15,7 @@
    }
   }
  ],
- "warningText": "由 yingshi 聚合 78 条线路自动合并生成（全量版 5667 站点），仅供学习交流",
+ "warningText": "由 yingshi 聚合 78 条线路自动合并生成（全量版 5668 站点），仅供学习交流",
  "sites": [
   {
    "key": "Douban",
@@ -2573,7 +2573,7 @@
    "ext": "https://jiekou.netlify.app/json/alist.json"
   },
   {
-   "name": "📁┃资源┃中心",
+   "name": "⚙️┃资源┃中心",
    "key": "MyAll",
    "type": 3,
    "api": "csp_MyAllAmns",
@@ -20595,14 +20595,14 @@
    "filterable": 0
   },
   {
-   "name": "🔆杜北┃秒播",
-   "key": "线路16",
+   "name": "🔆荐片┃快速",
+   "key": "线路17",
    "type": 3,
-   "api": "csp_DubkAmns",
+   "api": "csp_JPianAmns",
    "searchable": 1,
    "quickSearch": 1,
    "changeable": 1,
-   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/Dubk"
+   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/JPian"
   },
   {
    "key": "csp_Jpys",
@@ -21547,14 +21547,13 @@
    "ext": "http://43.248.117.123:4680"
   },
   {
-   "name": "🔆荐片┃快速",
-   "key": "线路17",
+   "name": "🔆爱看┃采集",
+   "key": "线路18",
    "type": 3,
-   "api": "csp_JPianAmns",
+   "api": "csp_AiBotAmns",
    "searchable": 1,
    "quickSearch": 1,
-   "changeable": 1,
-   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/JPian"
+   "changeable": 1
   },
   {
    "key": "YunZhenXiang",
@@ -22428,13 +22427,14 @@
    "filterable": 1
   },
   {
-   "name": "🔆爱看┃采集",
-   "key": "线路18",
+   "name": "呜嗷短剧",
+   "key": "短剧",
    "type": 3,
-   "api": "csp_AiBotAmns",
+   "api": "csp_HgggAmns",
    "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
+   "quickSearch": 0,
+   "changeable": 0,
+   "genre": "shortdrama"
   },
   {
    "key": "Osstexll",
@@ -23305,14 +23305,14 @@
    }
   },
   {
-   "name": "呜嗷短剧",
-   "key": "短剧",
+   "key": "l001_wangerx_商店_1",
+   "name": "🍬应用商店",
    "type": 3,
-   "api": "csp_HgggAmns",
-   "searchable": 1,
-   "quickSearch": 0,
+   "api": "csp_Market",
+   "searchable": 0,
    "changeable": 0,
-   "genre": "shortdrama"
+   "jar": "./jar/FM.jar",
+   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/ext/market.json"
   },
   {
    "key": "布布影视APP",
@@ -24206,16 +24206,6 @@
     "sk": "SK-woniu-thanks",
     "ver": "1"
    }
-  },
-  {
-   "key": "l001_wangerx_商店_1",
-   "name": "🍬应用商店",
-   "type": 3,
-   "api": "csp_Market",
-   "searchable": 0,
-   "changeable": 0,
-   "jar": "./jar/FM.jar",
-   "ext": "https://raw.githubusercontent.com/zhoujck/config/main/ext/market.json"
   },
   {
    "key": "mac_mtyy7",
@@ -52480,13 +52470,13 @@
    "playerType": 2
   },
   {
-   "name": "🔍┃飞鱼┃盘搜",
-   "key": "PSfish",
+   "name": "🏪┃应用┃商店",
+   "key": "Store",
    "type": 3,
-   "api": "csp_PSfishAmns",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
+   "api": "csp_StoreAmns",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_央视影视_1",
@@ -52719,13 +52709,13 @@
    "playerType": 2
   },
   {
-   "name": "🔍┃觅寻┃盘搜",
-   "key": "PSdju",
+   "name": "🏪┃壁纸┃商店",
+   "key": "WPbzm",
    "type": 3,
-   "api": "csp_PSdjuAmns",
-   "searchable": 1,
-   "quickSearch": 1,
-   "changeable": 1
+   "api": "csp_WPbzmAmns",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_五八PY_1",
@@ -52970,12 +52960,12 @@
    "playerType": 2
   },
   {
-   "name": "🛴┃推送┃播放",
-   "key": "l001_wangerx_push_agent_50",
+   "name": "🔍┃飞鱼┃盘搜",
+   "key": "PSfish",
    "type": 3,
-   "api": "csp_PushAmns",
-   "searchable": 0,
-   "quickSearch": 0,
+   "api": "csp_PSfishAmns",
+   "searchable": 1,
+   "quickSearch": 1,
    "changeable": 1
   },
   {
@@ -53201,6 +53191,15 @@
    "filterable": 1,
    "order_num": 0,
    "ext": "https://jiekou.netlify.app/js/布雷.js"
+  },
+  {
+   "name": "🔍┃觅寻┃盘搜",
+   "key": "PSdju",
+   "type": 3,
+   "api": "csp_PSdjuAmns",
+   "searchable": 1,
+   "quickSearch": 1,
+   "changeable": 1
   },
   {
    "key": "l001_wangerx_布雷影视_1",
@@ -53441,6 +53440,15 @@
    "api": "csp_YD",
    "searchable": 1,
    "quickSearch": 1
+  },
+  {
+   "name": "🛴┃推送┃播放",
+   "key": "l001_wangerx_push_agent_50",
+   "type": 3,
+   "api": "csp_PushAmns",
+   "searchable": 0,
+   "quickSearch": 0,
+   "changeable": 0
   },
   {
    "key": "l001_wangerx_移动_2",
@@ -69363,12 +69371,12 @@
    }
   },
   {
-   "name": "云播",
+   "name": "嗷呜",
    "type": 0,
    "url": "https://free.maccms.xyz?url="
   },
   {
-   "name": "77",
+   "name": "真帅",
    "type": 0,
    "url": "https://jx.77flv.cc/?url="
   },
@@ -70790,6 +70798,11 @@
      "User-Agent": "okhttp/4.9.1"
     }
    }
+  },
+  {
+   "name": "77",
+   "type": 0,
+   "url": "https://jx.77flv.cc/?url="
   },
   {
    "name": "qiyi[官源]",
