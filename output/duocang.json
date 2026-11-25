@@ -1,6 +1,46 @@
 {
  "urls": [
   {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.jso",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l079_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "fastly.jsdelivr.net/gh/shenzengquan/tvbox-clean/tvbox.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l080_auto_fastlyjsdelivr_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/shenzengquan/tvbox-clean/main/tvbox.js",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l081_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Jar爬虫",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l082_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_a",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l083_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian-full.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l084_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-JS站.j",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l085_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l086_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.j",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l087_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l088_auto_rawgithubuserc_.json"
+  },
+  {
    "name": "王二小",
    "url": "https://liu666666667.github.io/yingshi/output/lines/l001_wangerxiao.json"
   },

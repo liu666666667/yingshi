@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25 11:39:47",
+ "updated_at": "2026-11-25 20:12:16",
  "repo": "liu666666667/yingshi",
  "sources": [
   {
@@ -133,6 +133,66 @@
    "name": "X4少儿频道",
    "ok": true,
    "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_7e0cef",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.jso",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_fastlyjsdelivr_0a1208",
+   "name": "fastly.jsdelivr.net/gh/shenzengquan/tvbox-clean/tvbox.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_ed02e8",
+   "name": "raw.githubusercontent.com/shenzengquan/tvbox-clean/main/tvbox.js",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_2d769d",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Jar爬虫",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_eef040",
+   "name": "raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_a",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_adc3d9",
+   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian-full.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_368a9e",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-JS站.j",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_af93f3",
+   "name": "raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_12a5b3",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.j",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_85b966",
+   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian.json",
+   "ok": true,
+   "lines": 1
   }
  ],
  "live_sources": [
@@ -175,7 +235,7 @@
    "id": "vbskycn",
    "name": "vbskycn",
    "ok": true,
-   "channels": 348,
+   "channels": 343,
    "err": null
   },
   {
@@ -505,21 +565,61 @@
   {
    "source": "auto_rawgithubuserc_cbfea3",
    "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_7e0cef",
+   "blocked": 3
+  },
+  {
+   "source": "auto_fastlyjsdelivr_0a1208",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_ed02e8",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_2d769d",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_eef040",
+   "blocked": 15
+  },
+  {
+   "source": "auto_rawgithubuserc_adc3d9",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_368a9e",
+   "blocked": 3
+  },
+  {
+   "source": "auto_rawgithubuserc_af93f3",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_12a5b3",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_85b966",
+   "blocked": 0
   }
  ],
  "live_stats": {
-  "input_channels": 2509,
-  "kept": 1706,
+  "input_channels": 2504,
+  "kept": 1701,
   "groups": 82
  },
  "stats": {
-  "public_lines": 36,
-  "merged_files": 4,
-  "merged_sites": 5668,
-  "separate_sites": 5,
-  "blocked_sites": 0,
-  "discovered_configs": 0,
+  "public_lines": 46,
+  "merged_files": 9,
+  "merged_sites": 12638,
+  "separate_sites": 26,
+  "blocked_sites": 21,
+  "discovered_configs": 10,
   "discovered_lives": 0,
-  "elapsed_sec": 71.5
+  "elapsed_sec": 142.9
  }
 }

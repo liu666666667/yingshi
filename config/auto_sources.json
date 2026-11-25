@@ -1,5 +1,136 @@
 {
- "sources": [],
- "updated_at": "2026-11-25 11:38:35",
+ "sources": [
+  {
+   "id": "auto_rawgithubuserc_7e0cef",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.jso",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 1516
+  },
+  {
+   "id": "auto_fastlyjsdelivr_0a1208",
+   "name": "fastly.jsdelivr.net/gh/shenzengquan/tvbox-clean/tvbox.json",
+   "type": "single",
+   "urls": [
+    "https://fastly.jsdelivr.net/gh/shenzengquan/tvbox-clean/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 1305
+  },
+  {
+   "id": "auto_rawgithubuserc_ed02e8",
+   "name": "raw.githubusercontent.com/shenzengquan/tvbox-clean/main/tvbox.js",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/shenzengquan/tvbox-clean/main/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 1252
+  },
+  {
+   "id": "auto_rawgithubuserc_2d769d",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Jar爬虫",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Jar爬虫站.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 1132
+  },
+  {
+   "id": "auto_rawgithubuserc_eef040",
+   "name": "raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_a",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_all.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 717
+  },
+  {
+   "id": "auto_rawgithubuserc_adc3d9",
+   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian-full.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/Inliang/tvbox/main/zijian-full.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 509
+  },
+  {
+   "id": "auto_rawgithubuserc_368a9e",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-JS站.j",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-JS站.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 181
+  },
+  {
+   "id": "auto_rawgithubuserc_af93f3",
+   "name": "raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 161
+  },
+  {
+   "id": "auto_rawgithubuserc_12a5b3",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.j",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 148
+  },
+  {
+   "id": "auto_rawgithubuserc_85b966",
+   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/Inliang/tvbox/main/zijian.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-25 20:09:53",
+   "fail_streak": 0,
+   "score": 126
+  }
+ ],
+ "updated_at": "2026-11-25 20:09:53",
  "note": "自动全网搜索发现并维护（scripts/discover.py）：新源自动纳入、失效源自动淘汰，无需人工维护。"
 }
