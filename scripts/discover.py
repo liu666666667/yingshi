@@ -690,6 +690,10 @@ def health_check(entries):
         if norm(u) in DISABLED:
             return False, FAIL_LIMIT   # 命中禁用特征，存量立即淘汰
         r = probe_url(u)
+        # probe_url 命中禁用会把 URL 加进 DISABLED 并返回 None；此处复查，
+        # 确保存量 GO/登录/付费源本轮立即淘汰（否则会退化成 fail_streak+1 慢慢等 7 次）
+        if norm(u) in DISABLED:
+            return False, FAIL_LIMIT
         return (r is not None, r[1] if r else 0)
 
     alive = 0
