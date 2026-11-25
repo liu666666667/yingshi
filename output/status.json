@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25 20:12:16",
+ "updated_at": "2026-11-25 20:55:43",
  "repo": "liu666666667/yingshi",
  "sources": [
   {
@@ -147,6 +147,12 @@
    "lines": 1
   },
   {
+   "id": "auto_cdnjsdelivrnet_620265",
+   "name": "cdn.jsdelivr.net/gh/shenzengquan/tvbox-clean/tvbox.min.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
    "id": "auto_rawgithubuserc_ed02e8",
    "name": "raw.githubusercontent.com/shenzengquan/tvbox-clean/main/tvbox.js",
    "ok": true,
@@ -193,6 +199,60 @@
    "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian.json",
    "ok": true,
    "lines": 1
+  },
+  {
+   "id": "auto_tvboxtop_eff74c",
+   "name": "tvbox.王二小放牛娃.top",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_cluntop_478986",
+   "name": "clun.top/fun.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_jihulabcom_4dccb4",
+   "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_485816",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-采集站.j",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_playiptv365org_8dbcb2",
+   "name": "play.iptv365.org/香雅情/api.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_0dc374",
+   "name": "raw.githubusercontent.com/dxyc0922/Tvbox4.x_api/refs/heads/main/",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_052d5a",
+   "name": "raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_zthatop_1e0774",
+   "name": "ztha.top/TVBox/thdjk.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_678c54",
+   "name": "raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/ma",
+   "ok": true,
+   "lines": 1
   }
  ],
  "live_sources": [
@@ -235,7 +295,7 @@
    "id": "vbskycn",
    "name": "vbskycn",
    "ok": true,
-   "channels": 343,
+   "channels": 313,
    "err": null
   },
   {
@@ -250,6 +310,13 @@
    "name": "Chinese-IPTV",
    "ok": true,
    "channels": 58,
+   "err": null
+  },
+  {
+   "id": "auto_tvboxus_effee5",
+   "name": "tv-box.us/tvbox-demo.m3u",
+   "ok": true,
+   "channels": 24,
    "err": null
   }
  ],
@@ -575,6 +642,10 @@
    "blocked": 0
   },
   {
+   "source": "auto_cdnjsdelivrnet_620265",
+   "blocked": 0
+  },
+  {
    "source": "auto_rawgithubuserc_ed02e8",
    "blocked": 0
   },
@@ -605,21 +676,57 @@
   {
    "source": "auto_rawgithubuserc_85b966",
    "blocked": 0
+  },
+  {
+   "source": "auto_tvboxtop_eff74c",
+   "blocked": 0
+  },
+  {
+   "source": "auto_cluntop_478986",
+   "blocked": 0
+  },
+  {
+   "source": "auto_jihulabcom_4dccb4",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_485816",
+   "blocked": 0
+  },
+  {
+   "source": "auto_playiptv365org_8dbcb2",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_0dc374",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_052d5a",
+   "blocked": 0
+  },
+  {
+   "source": "auto_zthatop_1e0774",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_678c54",
+   "blocked": 0
   }
  ],
  "live_stats": {
-  "input_channels": 2504,
-  "kept": 1701,
-  "groups": 82
+  "input_channels": 2498,
+  "kept": 1719,
+  "groups": 85
  },
  "stats": {
-  "public_lines": 46,
-  "merged_files": 9,
-  "merged_sites": 12638,
-  "separate_sites": 26,
+  "public_lines": 56,
+  "merged_files": 10,
+  "merged_sites": 14475,
+  "separate_sites": 38,
   "blocked_sites": 21,
-  "discovered_configs": 10,
-  "discovered_lives": 0,
-  "elapsed_sec": 142.9
+  "discovered_configs": 20,
+  "discovered_lives": 1,
+  "elapsed_sec": 143.2
  }
 }

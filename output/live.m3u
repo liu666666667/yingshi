@@ -93,10 +93,14 @@ https://0472.org/hls/cgtnx.m3u8
 https://0472.org/hls/cgtna.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV3
 http://36.40.236.27:9999/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="央视频道",CCTV3
-http://222.169.85.8:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV8
+http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+#EXTINF:-1 group-title="央视频道",CCTV12
+http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="央视频道",CCTV13
 http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8
+#EXTINF:-1 group-title="央视频道",CGTN
+http://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8
 #EXTINF:-1 group-title="央视频道",CGTN法语
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 #EXTINF:-1 group-title="央视频道",支持作者
@@ -308,7 +312,7 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 #EXTINF:-1 group-title="卫视频道",中国教育1台
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226494/1.m3u8?
 #EXTINF:-1 group-title="卫视频道",人间卫视
-https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8
+http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u
 #EXTINF:-1 group-title="卫视频道",东方卫视4K
 https://bp-resource-dfl.bestv.cn/148/3/video.m3u8
 #EXTINF:-1 group-title="📡卫视频道",广东卫视
@@ -539,6 +543,8 @@ https://stream.hrbtv.net/ylpd/sd/live.m3u8
 http://stream.hrbtv.net/xwzh/sd/live.m3u8?zheild
 #EXTINF:-1 group-title="地方频道",哈尔滨生活
 http://stream.hrbtv.net/shpd/sd/live.m3u8?zheild
+#EXTINF:-1 group-title="地方频道",哈尔滨资讯
+http://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 group-title="地方频道",哈尔滨都市咨询
 http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
 #EXTINF:-1 group-title="地方频道",嘉兴新闻综合
@@ -565,16 +571,14 @@ http://stream11.jlntv.cn/dehuitv/sd/live.m3u8
 https://1yp7hc5p.live.sxmty.com/live/hls/bff8529922344209985b6e49baa9555a/efa2543628fc4a7ea93d3d6c975f77dc-1.m3u8
 #EXTINF:-1 group-title="地方频道",敦化一套
 http://stream8.jlntv.cn/dhtv/playlist.m3u8
-#EXTINF:-1 group-title="地方频道",晋江电视台
-http://stream.jinjiang.tv/1/sd/live.m3u8?zfud
 #EXTINF:-1 group-title="地方频道",普陀电视台
 https://l.cztvcloud.com/channels/lantian/SXputuo1/720p.m3u8
-#EXTINF:-1 group-title="地方频道",朝天综合
-https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 #EXTINF:-1 group-title="地方频道",来宾综合
 http://zb.gxlbamc.com:1935/live/lbzh.stream/playlist.m3u8
 #EXTINF:-1 group-title="地方频道",武进新闻
 https://live.wjyanghu.com/live/CH1.m3u8
+#EXTINF:-1 group-title="地方频道",武进生活
+http://live.wjyanghu.com/live/CH2.m3u8
 #EXTINF:-1 group-title="地方频道",江夏新闻综合
 http://59.175.226.142:280/gb28181/xwzh.m3u8?zhubd
 #EXTINF:-1 group-title="地方频道",汪清综合
@@ -585,14 +589,10 @@ http://play.jinnantv.top/live/JNTV1.m3u8?ztianjd
 https://ali-m-l.cztv.com/channels/lantian/channel010/1080p.m3u8?
 #EXTINF:-1 group-title="地方频道",浙江留学
 http://ali-vl.cztv.com/channels/lantian/channel009/360p.m3u8
-#EXTINF:-1 group-title="地方频道",浙江经济生活
-http://ali-m-l.cztv.com/channels/lantian/channel03/1080p.m3u8#https://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8#http://ali-m-l.cztv.com/channels/lantian/channel003/1080p.m3u8
+#EXTINF:-1 group-title="地方频道",浙江钱江
+http://l.cztvcloud.com/channels/lantian/SXyuyao2/720p.m3u8
 #EXTINF:-1 group-title="地方频道",浙江钱江频道
 http://ali-m-l.cztv.com/channels/lantian/channel02/1080p.m3u8
-#EXTINF:-1 group-title="地方频道",玛纳斯综合
-http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd,
-#EXTINF:-1 group-title="地方频道",璧山综合
-http://222.179.42.129:8181/hls1.m3u8
 #EXTINF:-1 group-title="地方频道",甘南县综合
 https://stream.hrbtv.net/zxpd/sd/live.m3u8
 #EXTINF:-1 group-title="地方频道",甘孜综合
@@ -621,10 +621,6 @@ http://cm-wshls.homecdn.com/live/2aa50.m3u8
 https://www.wxhcgbds.com:8081/channelTv/WXTV_1.m3u8?zshanxd
 #EXTINF:-1 group-title="地方频道",长白山电视台
 http://stream8.jlntv.cn/cbstv/sd/live.m3u8?zjild
-#EXTINF:-1 group-title="地方频道",陕西秦腔
-http://112.46.105.20:8009/hls/22/index.m3u8
-#EXTINF:-1 group-title="地方频道",陕西银龄
-http://112.46.105.20:8009/hls/20/index.m3u8
 #EXTINF:-1 group-title="地方频道",龙游新闻综合
 https://l.cztvcloud.com/channels/lantian/SXlongyou1/720p.m3u8
 #EXTINF:-1 group-title="4K8K频道",深圳卫视4K
@@ -663,6 +659,8 @@ http://stream2.xiancity.cn/xatv3/playlist.m3u8
 http://223.110.245.167/ott.js.chinamobile.com/PLTV/3/224/3221225947/index.m3u8
 #EXTINF:-1 group-title="Business",Zhejiang Economic Channel
 rtmp://splay-qukan.cztv.com/live/1792060094123056?auth_key=1886668326-379148691825438db322fe5c1545be6b-0-ae4e25174445c06889d2da4cf99c48af
+#EXTINF:-1 group-title="CarPlay Test",Apple HLS BipBop
+https://devimages-cdn.apple.com/iphone/samples/bipbop/bipbopall.m3u8
 #EXTINF:-1 group-title="Culture",Lanzhou Culture & Tourism Channel
 https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8
 #EXTINF:-1 group-title="Culture",Nei Monggol TV 2 Mongolian Culture Channel
@@ -809,6 +807,8 @@ http://www.pxitv.com:8099/hls-live/livepkgr/_definst_/pxitvevent/pxtv1stream.m3u
 http://119.166.53.110:85/tsfile/live/1000_1.m3u8?authid=0&key=txiptv&playlive=1
 #EXTINF:-1 group-title="News",Tonghua TV (1080p)
 http://lsfb.avap.jilintv.cn/zqvk7vpj/channel/43ea5771aa44421591f9dfd2b71f1b9b/index.m3u8
+#EXTINF:-1 group-title="Radio",SomaFM - Groove Salad
+https://ice5.somafm.com/groovesalad-128-mp3
 #EXTINF:-1 group-title="Religious",ABN China (720p)
 https://mediaserver.abnvideos.com/streams/abnchina.m3u8
 #EXTINF:-1 group-title="Religious",Ando TV (1080p)
@@ -885,6 +885,50 @@ rtmp://splay-qukan.cztv.com/live/1792059771757250?auth_key=1886667772-951bbd2034
 http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
 #EXTINF:-1 group-title="Weather",China Weather Channel (576p) [Not 24/7]
 http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
+#EXTINF:-1 group-title="github",vr.mp4
+https://raw.githubusercontent.com/kingslay/TestVideo/main/vr.mp4
+#EXTINF:-1 group-title="github",vp9.webm
+https://raw.githubusercontent.com/kingslay/TestVideo/main/vp9.webm
+#EXTINF:-1 group-title="github",F4 - 流星雨.mp3
+https://raw.githubusercontent.com/kingslay/TestVideo/main/F4%20-%20%E6%B5%81%E6%98%9F%E9%9B%A8.mp3
+#EXTINF:-1 group-title="github",Closed Captions.ts
+https://raw.githubusercontent.com/kingslay/TestVideo/main/Closed%20Captions.ts
+#EXTINF:-1 group-title="github",dolby-digital-plus-channel.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/dolby-digital-plus-channel.mkv
+#EXTINF:-1 group-title="github",subtitlepip.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/subtitlepip.mkv
+#EXTINF:-1 group-title="github",DV8.1_TEST.mp4
+https://raw.githubusercontent.com/kingslay/TestVideo/main/DV8.1_TEST.mp4
+#EXTINF:-1 group-title="github",yuv444p10le.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/yuv444p10le.mkv
+#EXTINF:-1 group-title="github",dvd_subtitle.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/dvd_subtitle.mkv
+#EXTINF:-1 group-title="github",Standard Interlaced Stream.ts
+https://raw.githubusercontent.com/kingslay/TestVideo/main/Standard%20Interlaced%20Stream.ts
+#EXTINF:-1 group-title="github",subrip.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/subrip.mkv
+#EXTINF:-1 group-title="github",HDR10+.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/HDR10+.mkv
+#EXTINF:-1 group-title="github",DolbyVisionProfile5.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/DolbyVisionProfile5.mkv
+#EXTINF:-1 group-title="github",Mystery Box Dolby Vision Profile 5.mp4
+https://raw.githubusercontent.com/kingslay/TestVideo/main/Mystery%20Box%20Dolby%20Vision%20Profile%205.mp4
+#EXTINF:-1 group-title="github",h264.mp4
+https://raw.githubusercontent.com/kingslay/TestVideo/main/h264.mp4
+#EXTINF:-1 group-title="github",mjpeg.flac
+https://raw.githubusercontent.com/kingslay/TestVideo/main/mjpeg.flac
+#EXTINF:-1 group-title="github",av1.mp4
+https://raw.githubusercontent.com/kingslay/TestVideo/main/av1.mp4
+#EXTINF:-1 group-title="github",hevc.mkv
+https://raw.githubusercontent.com/kingslay/TestVideo/main/hevc.mkv
+#EXTINF:-1 group-title="github",tsNoSeekByBytes.ts
+https://raw.githubusercontent.com/kingslay/TestVideo/main/tsNoSeekByBytes.ts
+#EXTINF:-1 group-title="github",Wake Music.dts
+https://raw.githubusercontent.com/kingslay/TestVideo/main/Wake%20Music.dts
+#EXTINF:-1 group-title="github",hevc.mov
+https://raw.githubusercontent.com/kingslay/TestVideo/main/hevc.mov
+#EXTINF:-1 group-title="github",ChID_voices_1920x1080p_2997fps_h265_6ch_128kbps_ac4.mp4
+https://raw.githubusercontent.com/kingslay/TestVideo/main/ChID_voices_1920x1080p_2997fps_h265_6ch_128kbps_ac4.mp4
 #EXTINF:-1 group-title="•咪咕「移动」",睛彩广场舞「移动」
 http://gslbserv.itv.cmvideo.cn/index.m3u8?channel-id=FifastbLive&Contentid=3000000020000011523&livemode=1&stbId=YanG-1989
 #EXTINF:-1 group-title="•咪咕「移动」",睛彩青少「移动」
@@ -2895,8 +2939,6 @@ https://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
 https://ali-m-l.cztv.com/channels/lantian/channel006/1080p.m3u8
 #EXTINF:-1 group-title="浙江频道",浙江钱江
 https://ali-m-l.cztv.com/channels/lantian/channel002/1080p.m3u8
-#EXTINF:-1 group-title="电影频道",CHC电影
-http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 group-title="电影频道",倚天屠龙记
 https://live.metshop.top/huya/23734246
 #EXTINF:-1 group-title="电影频道",刑事侦缉档案
@@ -3025,8 +3067,6 @@ http://stream5.jlntv.cn/df/sd/live.m3u8?zjild
 http://stream10.jlntv.cn/jiutaitv/sd/live.m3u8?zjild
 #EXTINF:-1 group-title="纪录频道",双辽
 http://stream5.jlntv.cn/sl/sd/live.m3u8?zjild
-#EXTINF:-1 group-title="纪录频道",奎屯汉语
-http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd
 #EXTINF:-1 group-title="纪录频道",敦化一套
 http://stream8.jlntv.cn/dhtv/playlist.m3u8?zjild
 #EXTINF:-1 group-title="纪录频道",柳河
@@ -3035,8 +3075,6 @@ http://stream5.jlntv.cn/lh/sd/live.m3u8?zjild
 http://stream10.jlntv.cn/huadian/sd/live.m3u8?zjild
 #EXTINF:-1 group-title="纪录频道",汪清
 http://stream5.jlntv.cn/wq/sd/live.m3u8?zjild
-#EXTINF:-1 group-title="纪录频道",玛纳斯
-http://218.84.127.245:1026/hls/main1/playlist.m3u8?zxinjd
 #EXTINF:-1 group-title="纪录频道",珲春新闻
 http://stream8.jlntv.cn/hctv/sd/live.m3u8?zjild
 #EXTINF:-1 group-title="纪录频道",白山公共
@@ -3057,8 +3095,6 @@ http://stream8.jlntv.cn/ljtv/sd/live.m3u8?zjild
 https://live.metshop.top/huya/29465858
 #EXTINF:-1 group-title="解说频道",谈判专家
 https://live.metshop.top/yy/1382735560
-#EXTINF:-1 group-title="音乐频道",AMC音乐
-https://AMChls.wns.live/hls/stream.m3u8
 #EXTINF:-1 group-title="音乐频道",音乐欣赏
 http://61.221.215.25:8800/hls/49/index.m3u8
 #EXTINF:-1 group-title="🌊港·澳·台",翡翠台

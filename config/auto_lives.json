@@ -1,5 +1,19 @@
 {
- "sources": [],
- "updated_at": "2026-11-25 20:09:53",
+ "sources": [
+  {
+   "id": "auto_tvboxus_effee5",
+   "name": "tv-box.us/tvbox-demo.m3u",
+   "type": "live",
+   "urls": [
+    "https://tv-box.us/tvbox-demo.m3u"
+   ],
+   "channel": "web",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-25 20:53:20",
+   "fail_streak": 0,
+   "score": 24
+  }
+ ],
+ "updated_at": "2026-11-25 20:53:20",
  "note": "自动全网搜索发现并维护（scripts/discover.py）：新源自动纳入、失效源自动淘汰，无需人工维护。"
 }
