@@ -108,6 +108,27 @@ LOGIN_KW = ("卡密", "授权码", "邀请码", "激活码", "请登录", "需�
             "付费开通", "扫码登录", "扫码获取", "进群获取", "加群获取", "加群交流")
 LOGIN_KWS = list(LOGIN_KW)  # main() 里从 discovery.json 覆盖
 
+# 命中这些特征的源一律不要（新源拒收 + 存量立即淘汰）：
+# 1) 图片伪装成爬虫引擎的 spider（.png/.jpg...）——影视仓加载时弹"下载 GO 组件/初始化本地代理/申请本地文件权限"
+# 2) spider 地址里直接带"本地代理/go 组件"字样的魔改包
+BAD_SPIDER_EXTS = (".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp")
+GO_PROXY_KW = ("本地代理", "下载go", "下载 go", "go组件", "go 组件", "初始化代理")
+DISABLED = set()   # 命中禁用特征的 URL（norm 后），存量源据此立即淘汰
+
+
+def _disable_reason(d, text):
+    """返回禁用原因字符串，正常源返回 None。登录/付费/GO伪装spider 全拒。"""
+    if any(k in text[:30000] for k in LOGIN_KWS):
+        return "login"
+    sp = d.get("spider") if isinstance(d, dict) else None
+    if isinstance(sp, str) and sp:
+        head = sp.split(";", 1)[0].split("?", 1)[0].strip().lower()
+        if head.endswith(BAD_SPIDER_EXTS):
+            return "image-spider"
+        if any(k in sp.lower() for k in GO_PROXY_KW):
+            return "go-proxy"
+    return None
+
 GH_BLOB_RE = re.compile(
     r'https://github\.com/([A-Za-z0-9_.-]+)/([A-Za-z0-9_.-]+)/(?:blob|raw)/'
     r'([^/\s"\'<>]+)/([^\s"\'<>）)\]，。；、]+)')
@@ -570,14 +591,17 @@ def probe_url(url):
         if len(urls) < 20:
             return None
         return ("live", len(urls), _m3u_fp(text))
-    # 登录/付费源检测（全文本保守词表，避免误伤正常配置）
-    if any(k in text[:30000] for k in LOGIN_KWS):
-        return None
     try:
         d = parse_json_lenient(text)
     except Exception:
         return None
     if not isinstance(d, dict):
+        return None
+    # 登录/付费/GO本地代理伪装spider：一律拒绝，存量也标记立即淘汰
+    reason = _disable_reason(d, text)
+    if reason:
+        DISABLED.add(norm(url))
+        print("[DISC] 拒绝（%s）: %s" % (reason, url[:70]))
         return None
     if is_multi_warehouse(d):
         n = len(d.get("urls") or [])
@@ -663,6 +687,8 @@ def health_check(entries):
         u = (e.get("urls") or [""])[0]
         if not u:
             return False, 0
+        if norm(u) in DISABLED:
+            return False, FAIL_LIMIT   # 命中禁用特征，存量立即淘汰
         r = probe_url(u)
         return (r is not None, r[1] if r else 0)
 
@@ -681,7 +707,10 @@ def health_check(entries):
                 e["fail_streak"] = 0
                 e["score"] = n
             else:
-                e["fail_streak"] = int(e.get("fail_streak", 0)) + 1
+                if n == FAIL_LIMIT:
+                    e["fail_streak"] = FAIL_LIMIT   # 命中禁用特征，立即淘汰
+                else:
+                    e["fail_streak"] = int(e.get("fail_streak", 0)) + 1
     return alive
 
 
