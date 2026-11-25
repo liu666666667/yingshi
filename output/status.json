@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25 21:27:35",
+ "updated_at": "2026-11-25 21:42:54",
  "repo": "liu666666667/yingshi",
  "sources": [
   {
@@ -153,8 +153,20 @@
    "lines": 1
   },
   {
+   "id": "auto_qistwyfcqzzio_a03e43",
+   "name": "qist.wyfc.qzz.io/jsm.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
    "id": "auto_rawgithubuserc_12a5b3",
    "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.j",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_6ff080",
+   "name": "raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
    "ok": true,
    "lines": 1
   },
@@ -185,6 +197,12 @@
   {
    "id": "auto_rawgithubuserc_0dc374",
    "name": "raw.githubusercontent.com/dxyc0922/Tvbox4.x_api/refs/heads/main/",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_300ccf",
+   "name": "raw.githubusercontent.com/qist/tvbox/master/fty.json",
    "ok": true,
    "lines": 1
   },
@@ -243,58 +261,10 @@
    "lines": 6
   },
   {
-   "id": "auto_fastlyjsdelivr_0a1208",
-   "name": "fastly.jsdelivr.net/gh/shenzengquan/tvbox-clean/tvbox.json",
+   "id": "auto_gitlabcom_8cec47",
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
    "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_cdnjsdelivrnet_620265",
-   "name": "cdn.jsdelivr.net/gh/shenzengquan/tvbox-clean/tvbox.min.json",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_rawgithubuserc_ed02e8",
-   "name": "raw.githubusercontent.com/shenzengquan/tvbox-clean/main/tvbox.js",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_rawgithubuserc_2d769d",
-   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Jar爬虫",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_rawgithubuserc_eef040",
-   "name": "raw.githubusercontent.com/hubeizgd1979/tvbox-merge/main/config_a",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_rawgithubuserc_adc3d9",
-   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian-full.json",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_rawgithubuserc_85b966",
-   "name": "raw.githubusercontent.com/Inliang/tvbox/main/zijian.json",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_tvboxtop_eff74c",
-   "name": "tvbox.王二小放牛娃.top",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_rawgithubuserc_678c54",
-   "name": "raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/refs/heads/ma",
-   "ok": true,
-   "lines": 1
+   "lines": 6
   }
  ],
  "live_sources": [
@@ -688,7 +658,15 @@
    "blocked": 0
   },
   {
+   "source": "auto_qistwyfcqzzio_a03e43",
+   "blocked": 0
+  },
+  {
    "source": "auto_rawgithubuserc_12a5b3",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_6ff080",
    "blocked": 0
   },
   {
@@ -709,6 +687,10 @@
   },
   {
    "source": "auto_rawgithubuserc_0dc374",
+   "blocked": 0
+  },
+  {
+   "source": "auto_rawgithubuserc_300ccf",
    "blocked": 0
   },
   {
@@ -768,39 +750,27 @@
    "blocked": 0
   },
   {
-   "source": "auto_fastlyjsdelivr_0a1208",
+   "source": "auto_gitlabcom_8cec47",
    "blocked": 0
   },
   {
-   "source": "auto_cdnjsdelivrnet_620265",
+   "source": "auto_gitlabcom_8cec47",
    "blocked": 0
   },
   {
-   "source": "auto_rawgithubuserc_ed02e8",
+   "source": "auto_gitlabcom_8cec47",
    "blocked": 0
   },
   {
-   "source": "auto_rawgithubuserc_2d769d",
+   "source": "auto_gitlabcom_8cec47",
    "blocked": 0
   },
   {
-   "source": "auto_rawgithubuserc_eef040",
-   "blocked": 15
-  },
-  {
-   "source": "auto_rawgithubuserc_adc3d9",
+   "source": "auto_gitlabcom_8cec47",
    "blocked": 0
   },
   {
-   "source": "auto_rawgithubuserc_85b966",
-   "blocked": 0
-  },
-  {
-   "source": "auto_tvboxtop_eff74c",
-   "blocked": 0
-  },
-  {
-   "source": "auto_rawgithubuserc_678c54",
+   "source": "auto_gitlabcom_8cec47",
    "blocked": 0
   }
  ],
@@ -811,12 +781,12 @@
  },
  "stats": {
   "public_lines": 68,
-  "merged_files": 11,
-  "merged_sites": 15344,
-  "separate_sites": 39,
-  "blocked_sites": 21,
-  "discovered_configs": 27,
+  "merged_files": 7,
+  "merged_sites": 9941,
+  "separate_sites": 22,
+  "blocked_sites": 6,
+  "discovered_configs": 22,
   "discovered_lives": 1,
-  "elapsed_sec": 84.8
+  "elapsed_sec": 143.1
  }
 }
