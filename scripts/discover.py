@@ -728,7 +728,9 @@ def main():
                 cand[u] = channel
 
     add_urls(chan_seeds(token, stats), "seeds")
-    #add_urls(chan_gh_code(token, stats), "ghcode")
+    # ghcode（GitHub 代码搜索）在 Actions 上必撞 429 限流，退避等待把整轮拖到 ~18 分钟，
+    # 且实际贡献恒为 0（源都来自 github/web/seeds），故停用。需要时取消下一行注释即可恢复。
+    # add_urls(chan_gh_code(token, stats), "ghcode")
     add_urls(chan_web(stats), "web")
     add_urls(chan_github(token, stats), "github")
     add_urls(chan_gitee(stats), "gitee")
