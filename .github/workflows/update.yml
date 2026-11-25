@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
   actions: write   # 清理旧 workflow 运行需要
 
 concurrency:
@@ -43,7 +41,7 @@ jobs:
         run: python scripts/update.py
 
       - name: Commit outputs
-        continue-on-error: true   # 提交/推送失败不阻塞 Pages 部署（部署用工作目录文件）
+        continue-on-error: true   # 提交/推送失败不阻塞 gh-pages 部署（部署读工作目录文件独立推送）
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -59,22 +57,29 @@ jobs:
             git rebase origin/main || git rebase --abort
             sleep 6
           done
-          echo "push failed after retries (non-fatal; Pages deploys from workspace files)"
+          echo "push failed after retries (non-fatal; gh-pages deploys from workspace files)"
           exit 0
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-        continue-on-error: true   # Pages 未在仓库设置里启用时不阻塞采集与提交
-
-      - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "."
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-        continue-on-error: true
+      # ---- 改用 gh-pages 分支部署：不依赖 artifact，避免 deploy-pages 找不到包的问题 ----
+      # 页面只需 index.html + output/（+config/），全部放到 gh-pages 分支根目录
+      - name: Deploy to gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          rm -rf /tmp/ghpages
+          mkdir -p /tmp/ghpages
+          cp index.html /tmp/ghpages/
+          cp -r output /tmp/ghpages/output
+          cp -r config /tmp/ghpages/config
+          cd /tmp/ghpages
+          git init -q
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -qm "deploy: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" HEAD:gh-pages
+          echo "deployed to gh-pages"
 
       - name: Prune workflow runs older than 7 days
         if: always()   # 采集失败也要清理
