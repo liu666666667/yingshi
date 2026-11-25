@@ -40,7 +40,10 @@ from concurrent.futures import ThreadPoolExecutor
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from update import (fetch_text_with_fallback, parse_json_lenient,
-                    is_tvbox_config, is_multi_warehouse, http_get, APP_UAS)
+                    is_tvbox_config, is_multi_warehouse, http_get as http_get_text, APP_UAS)
+# 注：update.http_get 返回 (文本, 是否文本) 且支持 ua/xrw（用于候选探测 probe_url）；
+# 本文件下方另有一个同名 http_get 返回 bytes（供 GitHub/web API 抓取用）。两者签名不同，
+# 故给 update 版起别名 http_get_text，避免被本地同名定义覆盖导致 probe_url 全部静默失败。
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONFIG_DIR = os.path.join(ROOT, "config")
@@ -275,6 +278,7 @@ def chan_seeds(token, stats):
 
 # ---- 通道 B2：GitHub 代码搜索（需 token；搜文件内容里的 TVBox 配置键） ----
 OWN_URL_MARK = "liu666666667/yingshicang"  # own 组源特征：种子/搜索发现的候选一律不收进 auto
+OWN_REPO_PREFIXES = ("liu666666667/",)     # 搜索发现时跳过自己账号下的全部仓库（own 组源由 own_sources.json 单独维护，不重复纳入 auto）
 
 
 def _is_own_candidate(u):
@@ -293,8 +297,11 @@ def chan_gh_code(token, stats):
     cands, seen = [], set()
     errors = []
     for q in GH_CODE_QUERIES:
+        if _over_budget():
+            print("[DISC/ghcode] 超时间预算，中止剩余查询")
+            break
         got = False
-        for attempt in (1, 2):
+        for attempt in (1, 2, 3):
             try:
                 api = GH_API + "/search/code?q=" + urllib.parse.quote(q) + "&per_page=30"
                 data = json.loads(http_get(api, headers=headers, timeout=20).decode("utf-8", "ignore"))
@@ -314,9 +321,22 @@ def chan_gh_code(token, stats):
                 break
             except Exception as e:
                 msg = "%s : %s" % (q[:24], str(e)[:60])
-                if "429" in str(e) and attempt == 1:
-                    print("[DISC/ghcode] 限流，等待 30s 重试: %s" % q[:24])
-                    time.sleep(30)
+                if "429" in str(e) and attempt < 3 and not _over_budget():
+                    # 代码搜索限流严格（认证 10 次/分）：优先按响应头 Retry-After / reset 退避，
+                    # 否则指数退避 15/30s，且不超过总时间预算，避免整条通道被 429 吃掉。
+                    wait = 15 * attempt
+                    hd = getattr(e, "headers", None)
+                    if hd:
+                        try:
+                            if hd.get("Retry-After"):
+                                wait = max(wait, int(hd.get("Retry-After")))
+                            if hd.get("x-ratelimit-reset"):
+                                wait = max(wait, int(hd.get("x-ratelimit-reset")) - int(time.time()) + 2)
+                        except Exception:
+                            pass
+                    wait = min(wait, 60)
+                    print("[DISC/ghcode] 限流，等待 %ss 重试(%d/3): %s" % (wait, attempt, q[:24]))
+                    time.sleep(wait)
                     continue
                 errors.append(msg)
                 print("[DISC/ghcode] 搜索失败 %s" % msg)
@@ -535,7 +555,7 @@ def probe_url(url):
     text = None
     for ua, xrw in APP_UAS[:2]:
         try:
-            t, is_text = http_get(url, timeout=8, ua=ua, xrw=xrw)
+            t, is_text = http_get_text(url, timeout=8, ua=ua, xrw=xrw)
             if is_text:
                 text = t
                 break
