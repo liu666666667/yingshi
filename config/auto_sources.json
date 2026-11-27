@@ -9,7 +9,20 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:27",
+   "fail_streak": 0,
+   "score": 4038
+  },
+  {
+   "id": "auto_rawgithubuserc_faa92f",
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-27 10:50:51",
+   "last_ok": "2026-11-27 10:50:51",
    "fail_streak": 0,
    "score": 4038
   },
@@ -22,7 +35,20 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:27",
+   "fail_streak": 0,
+   "score": 1630
+  },
+  {
+   "id": "auto_githubcom_46741c",
+   "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
+   "type": "single",
+   "urls": [
+    "https://github.com/hebijunge/tvbox-config/releases/download/latest/tvbox_recommended.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-27 10:50:51",
+   "last_ok": "2026-11-27 10:50:51",
    "fail_streak": 0,
    "score": 1630
   },
@@ -35,9 +61,9 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-25 20:09:53",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
-   "score": 1516
+   "score": 1604
   },
   {
    "id": "auto_rawgithubuserc_979583",
@@ -48,7 +74,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
    "score": 194
   },
@@ -61,9 +87,9 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-25 20:09:53",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
-   "score": 181
+   "score": 189
   },
   {
    "id": "auto_rawgithubuserc_ce5189",
@@ -74,7 +100,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
    "score": 165
   },
@@ -87,7 +113,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-25 20:09:53",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
    "score": 161
   },
@@ -100,7 +126,7 @@
    ],
    "channel": "web",
    "first_seen": "2026-11-25 21:40:31",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
    "score": 161
   },
@@ -113,7 +139,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
    "score": 158
   },
@@ -126,9 +152,9 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-25 20:09:53",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
-   "score": 148
+   "score": 131
   },
   {
    "id": "auto_rawgithubuserc_8aa752",
@@ -139,9 +165,9 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
-   "score": 128
+   "score": 123
   },
   {
    "id": "auto_rawgithubuserc_6ff080",
@@ -152,7 +178,7 @@
    ],
    "channel": "web",
    "first_seen": "2026-11-25 21:40:31",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:27",
    "fail_streak": 0,
    "score": 115
   },
@@ -165,7 +191,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 93
   },
@@ -178,9 +204,22 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-25 20:53:20",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 87
+  },
+  {
+   "id": "auto_jihulabcom_4dccb4",
+   "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+   "type": "single",
+   "urls": [
+    "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-27 10:50:30",
+   "fail_streak": 0,
+   "score": 63
   },
   {
    "id": "auto_rawgithubuserc_485816",
@@ -191,9 +230,9 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-25 20:53:20",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
-   "score": 55
+   "score": 57
   },
   {
    "id": "auto_playiptv365org_8dbcb2",
@@ -204,7 +243,7 @@
    ],
    "channel": "seeds",
    "first_seen": "2026-11-25 20:53:20",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 55
   },
@@ -217,7 +256,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 53
   },
@@ -230,7 +269,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-25 20:53:20",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 50
   },
@@ -243,7 +282,7 @@
    ],
    "channel": "web",
    "first_seen": "2026-11-25 21:40:31",
-   "last_ok": "2026-11-26 10:49:23",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 50
   },
@@ -256,7 +295,7 @@
    ],
    "channel": "seeds",
    "first_seen": "2026-11-25 20:53:20",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 49
   },
@@ -269,7 +308,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 48
   },
@@ -282,7 +321,7 @@
    ],
    "channel": "github",
    "first_seen": "2026-11-26 10:50:10",
-   "last_ok": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 48
   },
@@ -295,7 +334,7 @@
    ],
    "channel": "seeds",
    "first_seen": "2026-11-25 20:53:20",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 46
   },
@@ -308,7 +347,7 @@
    ],
    "channel": "seeds",
    "first_seen": "2026-11-25 21:26:11",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:28",
    "fail_streak": 0,
    "score": 43
   },
@@ -321,9 +360,22 @@
    ],
    "channel": "web",
    "first_seen": "2026-11-25 21:26:11",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:30",
    "fail_streak": 0,
    "score": 36
+  },
+  {
+   "id": "auto_jihulabcom_82ff6d",
+   "name": "jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+   "type": "single",
+   "urls": [
+    "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-27 10:50:30",
+   "fail_streak": 0,
+   "score": 28
   },
   {
    "id": "auto_wwwyingmcc_e7e86b",
@@ -334,7 +386,7 @@
    ],
    "channel": "seeds",
    "first_seen": "2026-11-25 21:26:11",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:30",
    "fail_streak": 0,
    "score": 27
   },
@@ -347,7 +399,7 @@
    ],
    "channel": "seeds",
    "first_seen": "2026-11-25 21:26:11",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:30",
    "fail_streak": 0,
    "score": 25
   },
@@ -360,7 +412,7 @@
    ],
    "channel": "seeds",
    "first_seen": "2026-11-25 21:26:11",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:30",
    "fail_streak": 0,
    "score": 24
   },
@@ -373,7 +425,7 @@
    ],
    "channel": "web",
    "first_seen": "2026-11-25 21:26:11",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:30",
    "fail_streak": 0,
    "score": 15,
    "expand": true
@@ -387,38 +439,12 @@
    ],
    "channel": "web",
    "first_seen": "2026-11-25 21:40:31",
-   "last_ok": "2026-11-26 10:49:24",
+   "last_ok": "2026-11-27 10:50:30",
    "fail_streak": 0,
    "score": 15,
    "expand": true
-  },
-  {
-   "id": "auto_jihulabcom_4dccb4",
-   "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
-   "type": "single",
-   "urls": [
-    "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json"
-   ],
-   "channel": "seeds",
-   "first_seen": "2026-11-25 20:53:20",
-   "last_ok": "2026-11-25 21:39:50",
-   "fail_streak": 1,
-   "score": 63
-  },
-  {
-   "id": "auto_jihulabcom_82ff6d",
-   "name": "jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
-   "type": "single",
-   "urls": [
-    "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json"
-   ],
-   "channel": "seeds",
-   "first_seen": "2026-11-25 21:26:11",
-   "last_ok": "2026-11-25 21:39:51",
-   "fail_streak": 1,
-   "score": 28
   }
  ],
- "updated_at": "2026-11-26 10:50:10",
+ "updated_at": "2026-11-27 10:50:51",
  "note": "自动全网搜索发现并维护（scripts/discover.py）：新源自动纳入、失效源自动淘汰，无需人工维护。"
 }

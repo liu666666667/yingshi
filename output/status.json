@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26 10:51:17",
+ "updated_at": "2026-11-27 10:52:00",
  "repo": "liu666666667/yingshi",
  "sources": [
   {
@@ -141,8 +141,20 @@
    "lines": 1
   },
   {
+   "id": "auto_rawgithubuserc_faa92f",
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
    "id": "auto_rawgithubuserc_3b3417",
    "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_reco",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_githubcom_46741c",
+   "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
    "ok": true,
    "lines": 1
   },
@@ -219,6 +231,12 @@
    "lines": 1
   },
   {
+   "id": "auto_jihulabcom_4dccb4",
+   "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
    "id": "auto_rawgithubuserc_485816",
    "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-采集站.j",
    "ok": true,
@@ -285,6 +303,12 @@
    "lines": 1
   },
   {
+   "id": "auto_jihulabcom_82ff6d",
+   "name": "jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+   "ok": true,
+   "lines": 1
+  },
+  {
    "id": "auto_wwwyingmcc_e7e86b",
    "name": "www.yingm.cc/dm/dm.json",
    "ok": true,
@@ -313,18 +337,6 @@
    "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
    "ok": true,
    "lines": 6
-  },
-  {
-   "id": "auto_jihulabcom_4dccb4",
-   "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
-  },
-  {
-   "id": "auto_jihulabcom_82ff6d",
-   "name": "jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
-   "ok": true,
-   "lines": 1
   }
  ],
  "live_sources": [
@@ -353,7 +365,7 @@
    "id": "iptvorg_cn",
    "name": "iptv-org中国",
    "ok": true,
-   "channels": 156,
+   "channels": 157,
    "err": null
   },
   {
@@ -367,7 +379,7 @@
    "id": "vbskycn",
    "name": "vbskycn",
    "ok": true,
-   "channels": 340,
+   "channels": 338,
    "err": null
   },
   {
@@ -388,7 +400,7 @@
    "id": "auto_iptvorggithubi_a54138",
    "name": "iptv-org.github.io/iptv/index.m3u",
    "ok": true,
-   "channels": 11512,
+   "channels": 11556,
    "err": null
   },
   {
@@ -745,12 +757,20 @@
    "blocked": 2
   },
   {
+   "source": "auto_rawgithubuserc_faa92f",
+   "blocked": 2
+  },
+  {
    "source": "auto_rawgithubuserc_3b3417",
    "blocked": 2
   },
   {
+   "source": "auto_githubcom_46741c",
+   "blocked": 2
+  },
+  {
    "source": "auto_rawgithubuserc_7e0cef",
-   "blocked": 3
+   "blocked": 9
   },
   {
    "source": "auto_rawgithubuserc_979583",
@@ -758,7 +778,7 @@
   },
   {
    "source": "auto_rawgithubuserc_368a9e",
-   "blocked": 3
+   "blocked": 2
   },
   {
    "source": "auto_rawgithubuserc_ce5189",
@@ -794,6 +814,10 @@
   },
   {
    "source": "auto_cluntop_478986",
+   "blocked": 0
+  },
+  {
+   "source": "auto_jihulabcom_4dccb4",
    "blocked": 0
   },
   {
@@ -838,6 +862,10 @@
   },
   {
    "source": "auto_rawgithubuserc_d57c93",
+   "blocked": 0
+  },
+  {
+   "source": "auto_jihulabcom_82ff6d",
    "blocked": 0
   },
   {
@@ -899,25 +927,21 @@
   {
    "source": "auto_gitlabcom_8cec47",
    "blocked": 0
-  },
-  {
-   "source": "auto_jihulabcom_82ff6d",
-   "blocked": 0
   }
  ],
  "live_stats": {
-  "input_channels": 20718,
-  "kept": 16940,
-  "groups": 379
+  "input_channels": 20761,
+  "kept": 16982,
+  "groups": 380
  },
  "stats": {
-  "public_lines": 77,
-  "merged_files": 11,
-  "merged_sites": 16393,
-  "separate_sites": 52,
-  "blocked_sites": 16,
-  "discovered_configs": 32,
+  "public_lines": 80,
+  "merged_files": 15,
+  "merged_sites": 22167,
+  "separate_sites": 76,
+  "blocked_sites": 25,
+  "discovered_configs": 34,
   "discovered_lives": 6,
-  "elapsed_sec": 67.0
+  "elapsed_sec": 69.4
  }
 }
