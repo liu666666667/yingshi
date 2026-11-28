@@ -1,0 +1,325 @@
+{
+ "urls": [
+  {
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/vod.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l077_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l078_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l079_auto_githubcom_78be6.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.jso",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l080_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_reco",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l081_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l082_auto_githubcom_46741.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/short.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l083_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-JS站.j",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l084_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/maoystv/6/main/000.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l085_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l086_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "qist.wyfc.qzz.io/jsm.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l087_auto_qistwyfcqzzio_a.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/he",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l088_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.j",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l089_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/HowKongFish/tvbox-json/main/merged.jso",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l090_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l091_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l092_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "clun.top/fun.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l093_auto_cluntop_478986.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/looomix/TVbox-Configs/main/api/tvbox.j",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l094_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l095_auto_jihulabcom_4dcc.json"
+  },
+  {
+   "name": "play.iptv365.org/香雅情/api.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l096_auto_playiptv365org_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-采集站.j",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l097_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "xhztv.top/4k.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l098_auto_xhztvtop_17d230.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/dxyc0922/Tvbox4.x_api/refs/heads/main/",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l099_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/qist/tvbox/master/fty.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l100_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l101_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l102_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "dxawi.github.io/0/0.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l103_auto_dxawigithubio_3.json"
+  },
+  {
+   "name": "ztha.top/TVBox/thdjk.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l104_auto_zthatop_1e0774.json"
+  },
+  {
+   "name": "11405.kstore.space/xiaye/qk4k.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l105_auto_11405kstorespa_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/Greatwallcorner/CatVodSpider/master/js",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l106_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l107_auto_jihulabcom_82ff.json"
+  },
+  {
+   "name": "www.yingm.cc/dm/dm.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l108_auto_wwwyingmcc_e7e8.json"
+  },
+  {
+   "name": "0.wudaozhe.net/5/tv少儿.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l109_auto_0wudaozhenet_7d.json"
+  },
+  {
+   "name": "home.jundie.top:81/top98.json",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l110_auto_homejundietop8_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json-🚀1-心魔在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l111_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json-🚀5-Clun在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l112_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json-🚀6-FongMI线路",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l113_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json-🚀10-高天流云js",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l114_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json-🚀11-高天流云 XYQ",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l115_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json-🚀15-健康家用",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l116_auto_rawgithubuserc_.json"
+  },
+  {
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json-🚀1-心魔在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l117_auto_gitlabcom_8cec4.json"
+  },
+  {
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json-🚀5-Clun在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l118_auto_gitlabcom_8cec4.json"
+  },
+  {
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json-🚀6-FongMI线路",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l119_auto_gitlabcom_8cec4.json"
+  },
+  {
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json-🚀10-高天流云js",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l120_auto_gitlabcom_8cec4.json"
+  },
+  {
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json-🚀11-高天流云 XYQ",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l121_auto_gitlabcom_8cec4.json"
+  },
+  {
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json-🚀15-健康家用",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l122_auto_gitlabcom_8cec4.json"
+  },
+  {
+   "name": "王二小",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l001_wangerxiao.json"
+  },
+  {
+   "name": "老刘备",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l002_laoliubei.json"
+  },
+  {
+   "name": "小马",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l003_xiaoma.json"
+  },
+  {
+   "name": "高天流云JS",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l004_gaojs.json"
+  },
+  {
+   "name": "高天流云0827",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l005_gao0827.json"
+  },
+  {
+   "name": "芯闻",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l006_xinwen.json"
+  },
+  {
+   "name": "clun",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l007_clun.json"
+  },
+  {
+   "name": "noimank",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l008_noimank.json"
+  },
+  {
+   "name": "嗷呜",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l009_aowu.json"
+  },
+  {
+   "name": "小盒自用",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l010_xiaomibox.json"
+  },
+  {
+   "name": "拾光多仓-动漫城📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l011_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-Clun📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l012_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-俊佬📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l013_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-二小📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l014_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-心魔📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l015_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-小马📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l016_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-挺好📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l017_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-小凯📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l018_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-CandyMu📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l019_shiguang_multi.json"
+  },
+  {
+   "name": "拾光多仓-请勿贩卖📚在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l020_shiguang_multi.json"
+  },
+  {
+   "name": "挺好分享多仓-📛挺好分享",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l021_tinghao_multi.json"
+  },
+  {
+   "name": "挺好分享多仓-🚀王二小线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l022_tinghao_multi.json"
+  },
+  {
+   "name": "挺好分享多仓-🚀小马线路",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l023_tinghao_multi.json"
+  },
+  {
+   "name": "挺好分享多仓-🚀俊佬在线",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l024_tinghao_multi.json"
+  },
+  {
+   "name": "挺好分享多仓-🚀俊佬线路",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l025_tinghao_multi.json"
+  },
+  {
+   "name": "幸福年年",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l026_xingfu.json"
+  },
+  {
+   "name": "老张",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l027_laozhang.json"
+  },
+  {
+   "name": "周J",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l028_zhouj.json"
+  },
+  {
+   "name": "宝盒",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l029_baohe.json"
+  },
+  {
+   "name": "摸鱼",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l030_moyu.json"
+  },
+  {
+   "name": "菜妮丝",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l031_cainisi.json"
+  },
+  {
+   "name": "X4接口",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l032_x4.json"
+  },
+  {
+   "name": "X4少儿频道",
+   "url": "https://liu666666667.github.io/yingshi/output/lines/l033_x4kids.json"
+  },
+  {
+   "name": "直播源(生活/影视直播)",
+   "url": "https://liu666666667.github.io/yingshi/output/live.m3u"
+  }
+ ],
+ "warningText": "yingshi 多仓聚合，每日自动更新"
+}

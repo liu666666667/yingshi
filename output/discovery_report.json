@@ -1,0 +1,42 @@
+{
+ "date": "2026-11-28 10:40:42",
+ "channels": {
+  "github": {
+   "queries": 8,
+   "repos": 18,
+   "candidates": 94
+  },
+  "ghcode": {
+   "queries": 0,
+   "files": 0,
+   "candidates": 0
+  },
+  "web": {
+   "queries": 9,
+   "pages": 47,
+   "candidates": 18
+  },
+  "gitee": {
+   "queries": 0,
+   "repos": 0,
+   "candidates": 0
+  },
+  "seeds": {
+   "repos": 0,
+   "lists": 2,
+   "candidates": 35
+  },
+  "manifests": {
+   "lists": 0,
+   "candidates": 0
+  },
+  "candidates_total": 138,
+  "probed": 108,
+  "added_configs": 2,
+  "added_lives": 1,
+  "pruned": 0,
+  "auto_configs": 36,
+  "auto_lives": 7,
+  "elapsed_sec": 79.8
+ }
+}

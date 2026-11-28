@@ -1,0 +1,75 @@
+{
+ "description": "自己维护的线路源清单（单独采集进 output/own.json，页面零展示；站点仍参与最终线路 merged_all 去重合并）。",
+ "sources": [
+  {
+   "id": "auto_rawgithubuserc_964379",
+   "name": "raw.githubusercontent.com/liu666666667/yingshicang/master/ghprox",
+   "type": "multi",
+   "urls": [
+    "https://raw.githubusercontent.com/liu666666667/yingshicang/master/ghproxyall.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 10:09:10",
+   "last_ok": "2026-11-22 10:09:10",
+   "fail_streak": 0,
+   "score": 24,
+   "expand": true
+  },
+  {
+   "id": "auto_rawgithubuserc_5c08db",
+   "name": "raw.githubusercontent.com/liu666666667/yingshicang/master/ghprox",
+   "type": "multi",
+   "urls": [
+    "https://raw.githubusercontent.com/liu666666667/yingshicang/master/ghproxypingchang.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 10:09:10",
+   "last_ok": "2026-11-22 10:09:10",
+   "fail_streak": 0,
+   "score": 22,
+   "expand": true
+  },
+  {
+   "id": "auto_rawgithubuserc_7a4915",
+   "name": "raw.githubusercontent.com/liu666666667/yingshicang/master/all.js",
+   "type": "multi",
+   "urls": [
+    "https://raw.githubusercontent.com/liu666666667/yingshicang/master/all.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 10:09:10",
+   "last_ok": "2026-11-22 10:09:10",
+   "fail_streak": 0,
+   "score": 21,
+   "expand": true
+  },
+  {
+   "id": "auto_rawgithubuserc_fe7538",
+   "name": "raw.githubusercontent.com/liu666666667/yingshicang/master/pingch",
+   "type": "multi",
+   "urls": [
+    "https://raw.githubusercontent.com/liu666666667/yingshicang/master/pingchang.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 10:09:10",
+   "last_ok": "2026-11-22 10:09:10",
+   "fail_streak": 0,
+   "score": 19,
+   "expand": true
+  },
+  {
+   "id": "auto_rawgithubuserc_cbfea3",
+   "name": "raw.githubusercontent.com/liu666666667/yingshicang/master/ghprox",
+   "type": "multi",
+   "urls": [
+    "https://raw.githubusercontent.com/liu666666667/yingshicang/master/ghproxtywangluoheji.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-22 10:09:10",
+   "last_ok": "2026-11-22 10:09:10",
+   "fail_streak": 0,
+   "score": 13,
+   "expand": true
+  }
+ ]
+}

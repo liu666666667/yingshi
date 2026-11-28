@@ -1,0 +1,476 @@
+{
+ "sources": [
+  {
+   "id": "auto_rawgithubuserc_fa773d",
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/vod.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/vod.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 4038
+  },
+  {
+   "id": "auto_rawgithubuserc_faa92f",
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-27 10:50:51",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 4038
+  },
+  {
+   "id": "auto_githubcom_78be62",
+   "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
+   "type": "single",
+   "urls": [
+    "https://github.com/hebijunge/tvbox-config/releases/download/latest/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-28 10:40:42",
+   "last_ok": "2026-11-28 10:40:42",
+   "fail_streak": 0,
+   "score": 4038
+  },
+  {
+   "id": "auto_rawgithubuserc_7e0cef",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.jso",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 1662
+  },
+  {
+   "id": "auto_rawgithubuserc_3b3417",
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_reco",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_recommended.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 1630
+  },
+  {
+   "id": "auto_githubcom_46741c",
+   "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
+   "type": "single",
+   "urls": [
+    "https://github.com/hebijunge/tvbox-config/releases/download/latest/tvbox_recommended.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-27 10:50:51",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 1630
+  },
+  {
+   "id": "auto_rawgithubuserc_979583",
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/short.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/short.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 194
+  },
+  {
+   "id": "auto_rawgithubuserc_368a9e",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-JS站.j",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-JS站.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 181
+  },
+  {
+   "id": "auto_rawgithubuserc_ce5189",
+   "name": "raw.githubusercontent.com/maoystv/6/main/000.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/maoystv/6/main/000.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 165
+  },
+  {
+   "id": "auto_rawgithubuserc_af93f3",
+   "name": "raw.githubusercontent.com/qist/tvbox/master/jsm.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/qist/tvbox/master/jsm.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 161
+  },
+  {
+   "id": "auto_qistwyfcqzzio_a03e43",
+   "name": "qist.wyfc.qzz.io/jsm.json",
+   "type": "single",
+   "urls": [
+    "https://qist.wyfc.qzz.io/jsm.json"
+   ],
+   "channel": "web",
+   "first_seen": "2026-11-25 21:40:31",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 161
+  },
+  {
+   "id": "auto_rawgithubuserc_0dc0af",
+   "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/he",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/hebijunge/tvbox-config/main/exports/healthy.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 158
+  },
+  {
+   "id": "auto_rawgithubuserc_12a5b3",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.j",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-Py站.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:09:53",
+   "last_ok": "2026-11-28 10:40:09",
+   "fail_streak": 0,
+   "score": 125
+  },
+  {
+   "id": "auto_rawgithubuserc_8aa752",
+   "name": "raw.githubusercontent.com/HowKongFish/tvbox-json/main/merged.jso",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/HowKongFish/tvbox-json/main/merged.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 123
+  },
+  {
+   "id": "auto_rawgithubuserc_6ff080",
+   "name": "raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json"
+   ],
+   "channel": "web",
+   "first_seen": "2026-11-25 21:40:31",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 115
+  },
+  {
+   "id": "auto_rawgithubuserc_5dfe59",
+   "name": "raw.githubusercontent.com/chitue/dongliTV/main/api.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/chitue/dongliTV/main/api.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 93
+  },
+  {
+   "id": "auto_cluntop_478986",
+   "name": "clun.top/fun.json",
+   "type": "single",
+   "urls": [
+    "https://clun.top/fun.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 87
+  },
+  {
+   "id": "auto_rawgithubuserc_e04efc",
+   "name": "raw.githubusercontent.com/looomix/TVbox-Configs/main/api/tvbox.j",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/looomix/TVbox-Configs/main/api/tvbox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-28 10:40:42",
+   "last_ok": "2026-11-28 10:40:42",
+   "fail_streak": 0,
+   "score": 75
+  },
+  {
+   "id": "auto_jihulabcom_4dccb4",
+   "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
+   "type": "single",
+   "urls": [
+    "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 63
+  },
+  {
+   "id": "auto_playiptv365org_8dbcb2",
+   "name": "play.iptv365.org/香雅情/api.json",
+   "type": "single",
+   "urls": [
+    "https://play.iptv365.org/香雅情/api.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 55
+  },
+  {
+   "id": "auto_rawgithubuserc_485816",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-采集站.j",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-采集站.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 54
+  },
+  {
+   "id": "auto_xhztvtop_17d230",
+   "name": "xhztv.top/4k.json",
+   "type": "single",
+   "urls": [
+    "http://xhztv.top/4k.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 53
+  },
+  {
+   "id": "auto_rawgithubuserc_0dc374",
+   "name": "raw.githubusercontent.com/dxyc0922/Tvbox4.x_api/refs/heads/main/",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/dxyc0922/Tvbox4.x_api/refs/heads/main/接口.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 50
+  },
+  {
+   "id": "auto_rawgithubuserc_300ccf",
+   "name": "raw.githubusercontent.com/qist/tvbox/master/fty.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/qist/tvbox/master/fty.json"
+   ],
+   "channel": "web",
+   "first_seen": "2026-11-25 21:40:31",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 50
+  },
+  {
+   "id": "auto_rawgithubuserc_052d5a",
+   "name": "raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 49
+  },
+  {
+   "id": "auto_rawgithubuserc_f0fc7d",
+   "name": "raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:10",
+   "fail_streak": 0,
+   "score": 48
+  },
+  {
+   "id": "auto_dxawigithubio_368a78",
+   "name": "dxawi.github.io/0/0.json",
+   "type": "single",
+   "urls": [
+    "https://dxawi.github.io/0/0.json"
+   ],
+   "channel": "github",
+   "first_seen": "2026-11-26 10:50:10",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 48
+  },
+  {
+   "id": "auto_zthatop_1e0774",
+   "name": "ztha.top/TVBox/thdjk.json",
+   "type": "single",
+   "urls": [
+    "https://ztha.top/TVBox/thdjk.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 20:53:20",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 46
+  },
+  {
+   "id": "auto_11405kstorespa_2dac32",
+   "name": "11405.kstore.space/xiaye/qk4k.json",
+   "type": "single",
+   "urls": [
+    "https://11405.kstore.space/xiaye/qk4k.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 43
+  },
+  {
+   "id": "auto_rawgithubuserc_d57c93",
+   "name": "raw.githubusercontent.com/Greatwallcorner/CatVodSpider/master/js",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/Greatwallcorner/CatVodSpider/master/json/config.json"
+   ],
+   "channel": "web",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 36
+  },
+  {
+   "id": "auto_jihulabcom_82ff6d",
+   "name": "jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+   "type": "single",
+   "urls": [
+    "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 28
+  },
+  {
+   "id": "auto_wwwyingmcc_e7e86b",
+   "name": "www.yingm.cc/dm/dm.json",
+   "type": "single",
+   "urls": [
+    "https://www.yingm.cc/dm/dm.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 27
+  },
+  {
+   "id": "auto_0wudaozhenet_7d96a5",
+   "name": "0.wudaozhe.net/5/tv少儿.json",
+   "type": "single",
+   "urls": [
+    "https://0.wudaozhe.net/5/tv少儿.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 25
+  },
+  {
+   "id": "auto_homejundietop8_9f6c73",
+   "name": "home.jundie.top:81/top98.json",
+   "type": "single",
+   "urls": [
+    "http://home.jundie.top:81/top98.json"
+   ],
+   "channel": "seeds",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 24
+  },
+  {
+   "id": "auto_rawgithubuserc_893c6b",
+   "name": "raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json",
+   "type": "multi",
+   "urls": [
+    "https://raw.githubusercontent.com/noimank/tvbox/main/tvboxmuti.json"
+   ],
+   "channel": "web",
+   "first_seen": "2026-11-25 21:26:11",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 15,
+   "expand": true
+  },
+  {
+   "id": "auto_gitlabcom_8cec47",
+   "name": "gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json",
+   "type": "multi",
+   "urls": [
+    "https://gitlab.com/noimank/tvbox/-/raw/main/tvboxmuti.json"
+   ],
+   "channel": "web",
+   "first_seen": "2026-11-25 21:40:31",
+   "last_ok": "2026-11-28 10:40:11",
+   "fail_streak": 0,
+   "score": 15,
+   "expand": true
+  }
+ ],
+ "updated_at": "2026-11-28 10:40:42",
+ "note": "自动全网搜索发现并维护（scripts/discover.py）：新源自动纳入、失效源自动淘汰，无需人工维护。"
+}

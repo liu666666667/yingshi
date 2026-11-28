@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "description": "每日自动全网搜索参数。搜索通道（GitHub 仓库搜索 / Bing+DuckDuckGo 网页搜索 / Gitee / 内置种子仓库）全部内置于 scripts/discover.py，无需人工维护任何清单；本文件只放调节参数。extra_manifests 可选：只有想额外指定聚合清单时才填，平时留空（留空即可）。",
+  "max_new_per_run": 10,
+  "max_new_lives": 5,
+  "extra_manifests": [],
+  "login_block_keywords": [
+    "卡密",
+    "授权码",
+    "邀请码",
+    "激活码",
+    "请登录",
+    "需登录",
+    "登录后",
+    "付费开通",
+    "扫码登录",
+    "扫码获取",
+    "进群获取",
+    "加群获取",
+    "加群交流"
+  ]
+}

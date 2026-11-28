@@ -1,0 +1,197 @@
+{
+ "description": "点播（影视仓/TVBox）配置源清单。所有源均外置于此，新增/删除源只需改本文件。",
+ "update_interval_hint": "GitHub Actions 每日自动采集，详见 .github/workflows/update.yml",
+ "github_mirror_prefixes": [
+  "https://gh-proxy.com/",
+  "https://ghproxy.net/",
+  "https://gh-proxy.org/"
+ ],
+ "sources": [
+  {
+   "id": "wangerxiao",
+   "name": "王二小",
+   "type": "single",
+   "urls": [
+    "https://9280.kstore.vip/aiwex.json",
+    "https://9280.kstore.dev/download/9280/wex.json"
+   ]
+  },
+  {
+   "id": "laoliubei",
+   "name": "老刘备",
+   "type": "single",
+   "urls": [
+    "https://raw.liucn.cc/box/m.json",
+    "https://raw.githubusercontent.com/liu673cn/box/main/m.json"
+   ]
+  },
+  {
+   "id": "xiaoma",
+   "name": "小马",
+   "type": "single",
+   "urls": [
+    "https://szyyds.cn/tv/x.json"
+   ]
+  },
+  {
+   "id": "gaojs",
+   "name": "高天流云JS",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json"
+   ]
+  },
+  {
+   "id": "gao0827",
+   "name": "高天流云0827",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/gaotianliuyun/gao/master/0827.json"
+   ]
+  },
+  {
+   "id": "xinwen",
+   "name": "芯闻",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/yw88075/tvbox/main/yw.json"
+   ]
+  },
+  {
+   "id": "clun",
+   "name": "clun",
+   "type": "single",
+   "urls": [
+    "https://clun.top/box.json"
+   ]
+  },
+  {
+   "id": "noimank",
+   "name": "noimank",
+   "type": "single",
+   "urls": [
+    "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json"
+   ]
+  },
+  {
+   "id": "shiguang",
+   "name": "时光",
+   "type": "single",
+   "urls": [
+    "https://jiekou.netlify.app/svip.json"
+   ]
+  },
+  {
+   "id": "aowu",
+   "name": "嗷呜",
+   "type": "single",
+   "urls": [
+    "https://9763.kstore.vip/aowu.json"
+   ]
+  },
+  {
+   "id": "xiaomibox",
+   "name": "小盒自用",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/ggrrttyyiii/CatVodSpider/main/json/demo.json"
+   ]
+  },
+  {
+   "id": "shiguang_multi",
+   "name": "拾光多仓",
+   "type": "multi",
+   "expand": true,
+   "urls": [
+    "http://xmbjm.fh4u.org/dc.txt"
+   ]
+  },
+  {
+   "id": "tinghao_multi",
+   "name": "挺好分享多仓",
+   "type": "multi",
+   "expand": true,
+   "urls": [
+    "http://ztha.top/TVBox/GYCK.json"
+   ]
+  },
+  {
+   "id": "xingfu",
+   "name": "幸福年年",
+   "type": "single",
+   "urls": [
+    "http://150.158.52.248/tgyg/bbm.json"
+   ]
+  },
+  {
+   "id": "laozhang",
+   "name": "老张",
+   "type": "single",
+   "urls": [
+    "https://zhangqun1818.serv00.net/zq/api.json"
+   ]
+  },
+  {
+   "id": "zhouj",
+   "name": "周J",
+   "type": "single",
+   "urls": [
+    "https://raw.githubusercontent.com/zhoujck/config/main/box"
+   ]
+  },
+  {
+   "id": "fantaiying",
+   "name": "饭太硬",
+   "type": "single",
+   "urls": [
+    "http://www.饭太硬.net/tv",
+    "http://www.饭太硬.cc/tv",
+    "http://www.饭太硬.art/tv",
+    "http://fty.888484.xyz/tv",
+    "http://fty.333232.xyz/tv"
+   ]
+  },
+  {
+   "id": "baohe",
+   "name": "宝盒",
+   "type": "single",
+   "urls": [
+    "http://宝盒接口.top"
+   ]
+  },
+  {
+   "id": "moyu",
+   "name": "摸鱼",
+   "type": "single",
+   "urls": [
+    "http://fish.y456y.com",
+    "http://我不是.摸鱼儿.top"
+   ]
+  },
+  {
+   "id": "cainisi",
+   "name": "菜妮丝",
+   "type": "single",
+   "urls": [
+    "http://菜妮丝.top",
+    "https://tv.xn--yhqu5zs87a.top"
+   ]
+  },
+  {
+   "id": "x4",
+   "name": "X4接口",
+   "type": "single",
+   "urls": [
+    "https://0.12yue.de5.net/5/x4.json"
+   ]
+  },
+  {
+   "id": "x4kids",
+   "name": "X4少儿频道",
+   "type": "single",
+   "urls": [
+    "https://0.12yue.de5.net/5/tv少儿.json"
+   ]
+  }
+ ]
+}
