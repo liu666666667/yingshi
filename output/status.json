@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27 10:52:00",
+ "updated_at": "2026-11-28 10:43:05",
  "repo": "liu666666667/yingshi",
  "sources": [
   {
@@ -53,8 +53,8 @@
   {
    "id": "shiguang",
    "name": "时光",
-   "ok": true,
-   "lines": 1
+   "ok": false,
+   "err": "HTTP Error 503: Service Unavailable"
   },
   {
    "id": "aowu",
@@ -72,7 +72,7 @@
    "id": "shiguang_multi",
    "name": "拾光多仓",
    "ok": true,
-   "lines": 11
+   "lines": 10
   },
   {
    "id": "tinghao_multi",
@@ -147,6 +147,18 @@
    "lines": 1
   },
   {
+   "id": "auto_githubcom_78be62",
+   "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
+   "ok": true,
+   "lines": 1
+  },
+  {
+   "id": "auto_rawgithubuserc_7e0cef",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.jso",
+   "ok": true,
+   "lines": 1
+  },
+  {
    "id": "auto_rawgithubuserc_3b3417",
    "name": "raw.githubusercontent.com/hebijunge/tvbox-config/main/tvbox_reco",
    "ok": true,
@@ -155,12 +167,6 @@
   {
    "id": "auto_githubcom_46741c",
    "name": "github.com/hebijunge/tvbox-config/releases/download/latest/tvbox",
-   "ok": true,
-   "lines": 1
-  },
-  {
-   "id": "auto_rawgithubuserc_7e0cef",
-   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播合集.jso",
    "ok": true,
    "lines": 1
   },
@@ -231,20 +237,26 @@
    "lines": 1
   },
   {
+   "id": "auto_rawgithubuserc_e04efc",
+   "name": "raw.githubusercontent.com/looomix/TVbox-Configs/main/api/tvbox.j",
+   "ok": true,
+   "lines": 1
+  },
+  {
    "id": "auto_jihulabcom_4dccb4",
    "name": "jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json",
    "ok": true,
    "lines": 1
   },
   {
-   "id": "auto_rawgithubuserc_485816",
-   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-采集站.j",
+   "id": "auto_playiptv365org_8dbcb2",
+   "name": "play.iptv365.org/香雅情/api.json",
    "ok": true,
    "lines": 1
   },
   {
-   "id": "auto_playiptv365org_8dbcb2",
-   "name": "play.iptv365.org/香雅情/api.json",
+   "id": "auto_rawgithubuserc_485816",
+   "name": "raw.githubusercontent.com/thevip001/tvbox-agg/main/聚合接口/点播-采集站.j",
    "ok": true,
    "lines": 1
   },
@@ -379,7 +391,7 @@
    "id": "vbskycn",
    "name": "vbskycn",
    "ok": true,
-   "channels": 338,
+   "channels": 340,
    "err": null
   },
   {
@@ -400,14 +412,14 @@
    "id": "auto_iptvorggithubi_a54138",
    "name": "iptv-org.github.io/iptv/index.m3u",
    "ok": true,
-   "channels": 11556,
+   "channels": 11568,
    "err": null
   },
   {
    "id": "auto_rawgithubuserc_6a486d",
    "name": "raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
    "ok": true,
-   "channels": 2197,
+   "channels": 2184,
    "err": null
   },
   {
@@ -429,6 +441,13 @@
    "name": "raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3",
    "ok": true,
    "channels": 1226,
+   "err": null
+  },
+  {
+   "id": "auto_tvboxconfig5gm_029ab7",
+   "name": "tvbox-config-5gm.pages.dev/live.txt",
+   "ok": true,
+   "channels": 155,
    "err": null
   },
   {
@@ -473,19 +492,11 @@
    "blocked": 0
   },
   {
-   "source": "shiguang",
-   "blocked": 0
-  },
-  {
    "source": "aowu",
    "blocked": 0
   },
   {
    "source": "xiaomibox",
-   "blocked": 0
-  },
-  {
-   "source": "shiguang_multi",
    "blocked": 0
   },
   {
@@ -761,6 +772,14 @@
    "blocked": 2
   },
   {
+   "source": "auto_githubcom_78be62",
+   "blocked": 2
+  },
+  {
+   "source": "auto_rawgithubuserc_7e0cef",
+   "blocked": 11
+  },
+  {
    "source": "auto_rawgithubuserc_3b3417",
    "blocked": 2
   },
@@ -769,16 +788,12 @@
    "blocked": 2
   },
   {
-   "source": "auto_rawgithubuserc_7e0cef",
-   "blocked": 9
-  },
-  {
    "source": "auto_rawgithubuserc_979583",
    "blocked": 0
   },
   {
    "source": "auto_rawgithubuserc_368a9e",
-   "blocked": 2
+   "blocked": 3
   },
   {
    "source": "auto_rawgithubuserc_ce5189",
@@ -817,15 +832,19 @@
    "blocked": 0
   },
   {
+   "source": "auto_rawgithubuserc_e04efc",
+   "blocked": 0
+  },
+  {
    "source": "auto_jihulabcom_4dccb4",
    "blocked": 0
   },
   {
-   "source": "auto_rawgithubuserc_485816",
+   "source": "auto_playiptv365org_8dbcb2",
    "blocked": 0
   },
   {
-   "source": "auto_playiptv365org_8dbcb2",
+   "source": "auto_rawgithubuserc_485816",
    "blocked": 0
   },
   {
@@ -930,18 +949,18 @@
   }
  ],
  "live_stats": {
-  "input_channels": 20761,
-  "kept": 16982,
-  "groups": 380
+  "input_channels": 20917,
+  "kept": 17000,
+  "groups": 384
  },
  "stats": {
   "public_lines": 80,
-  "merged_files": 15,
-  "merged_sites": 22167,
-  "separate_sites": 76,
-  "blocked_sites": 25,
-  "discovered_configs": 34,
-  "discovered_lives": 6,
-  "elapsed_sec": 69.4
+  "merged_files": 18,
+  "merged_sites": 25811,
+  "separate_sites": 89,
+  "blocked_sites": 30,
+  "discovered_configs": 36,
+  "discovered_lives": 7,
+  "elapsed_sec": 143.6
  }
 }
